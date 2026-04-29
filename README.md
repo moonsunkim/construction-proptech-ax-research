@@ -23,3 +23,10 @@ Notion은 종합 보고서와 메뉴 허브로 사용하고, 원본 Markdown 문
 - 표, URL, 인용 표기는 GitHub Markdown 렌더러에서 직접 표시되도록 유지했습니다.
 - Notion에서 발생한 Markdown 표 깨짐 문제를 피하기 위해, 원문 보관 및 열람 기준은 이 저장소입니다.
 
+
+## Docusaurus 배포
+
+이 저장소는 Docusaurus 문서 사이트 구조를 포함합니다. GitHub Pages가 활성화되면 아래 주소에서 볼 수 있습니다.
+
+https://moonsunkim.github.io/construction-proptech-ax-research/
+

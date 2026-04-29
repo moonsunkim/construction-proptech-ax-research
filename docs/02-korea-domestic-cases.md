@@ -1,0 +1,204 @@
+---
+title: 국내 건설사·프롭테크 사례
+---
+
+# 국내 건설·프롭테크 산업의 AX/AI 및 스마트 건설 기술 도입과 경제적 효과 분석 보고서
+
+**핵심 요약:**
+* 연구에 따르면, 국내 건설업계 및 프롭테크 기업의 AX(인공지능 전환)는 단순한 기술 시범 단계를 넘어 설계 최적화와 공기 단축이라는 실질적인 경제적 효과를 창출하는 궤도에 진입한 것으로 보입니다. 주요 톱티어 도입 기업인 **텐일레븐, 직방, DL이앤씨, 메이사, 현대건설, 금호건설** 등은 AI 기반 자동설계, AI-SDD, 3D 드론 매핑, BIM-AI 최적화, VLM(비전-언어 모델), TVWS(주파수 유휴 대역) 통신망 등의 핵심 기술을 상용화하였습니다.
+* 이를 통해 도출된 구체적인 재무적 효과로는 **텐일레븐의 망우1구역 938억 원 및 신반포7차 5,025억 원 자산 가치 추가 확보, 직방의 EBITDA 적자 95% 축소(150억 원→6억 원), 현대건설의 인덕원-동탄선 현장 통신망 구축 비용 12억 원(25.4%) 절감** 등 계량화된 명확한 경제 지표가 속속 입증되고 있습니다.
+* 특히 인공지능(AI) 기반의 건축 설계 솔루션과 드론 3D 매핑 기술은 수백억 원대 이상의 정량적 자산 가치를 추가 확보하고, 면적 산출 오차율을 2% 미만으로 줄이는 등 높은 수준의 정밀도를 입증하며 산업을 주도하고 있습니다.
+* 그러나 다수의 대형 건설사들이 널리 주장하는 '안전사고 대폭 감소' 및 '업무 효율성 증대'와 같은 정성적 성과는 엄밀한 경제적 재무 지표로 치환되기보다는 홍보성(PR) 수사에 머무는 한계도 존재합니다. 
+* 프롭테크 스타트업 역시 영업이익 흑자 전환 등 가시적인 재무 성과를 내고 있으나, 일부 유니콘 기업의 경우 수익의 근간이 고도화된 IT 데이터 라이선싱이 아닌 전통적인 오프라인 시공 및 인테리어 사업에서 기인한다는 논쟁적 측면이 병존합니다.
+
+최근 수년간 국내 건설업계와 부동산 프롭테크(PropTech·부동산과 기술의 합성어) 시장은 전례 없는 원자재 가격 상승, 고금리 기조, 그리고 인력난이라는 삼중고에 직면해 왔습니다. 이러한 구조적 위기를 타개하기 위해 주요 기업들은 단순히 IT 기기를 현장에 도입하는 것을 넘어, 인공지능을 프로세스 전반에 이식하는 AX(AI Transformation) 및 콘테크(ConTech·건설과 기술의 합성어) 기술을 적극적으로 채택하고 있습니다. 본 보고서는 2018년부터 2026년 현재까지 한국의 대형 종합건설사, 중소·중견기업, 프롭테크 스타트업, 그리고 공공 인프라 프로젝트 전반에 걸쳐 적용된 생성형 AI, 컴퓨터 비전 기반 안전관리, 드론 디지털 트윈, BIM(건설정보모델링) 등의 도입 사례를 심층 분석합니다. 특히 모호한 기술 도입 선언을 배제하고 구체적인 도입처, 사용 기술, 그리고 계량화된 경제적 성과(비용 절감, 생산성 향상, 가구 수 증가 등)를 집중적으로 조명하여, 기술의 실제 효용과 산업 전반에 미치는 파급력을 입체적으로 평가하고자 합니다.
+
+## 1. 스마트 건설 및 프롭테크 주요 20대 도입 사례 총괄표
+
+건설 및 부동산 산업의 특성상 하나의 기술이 도입되어 경제적 효과를 입증하기까지는 긴 프로젝트 사이클이 소요됩니다. 그럼에도 불구하고, 데이터화에 성공하여 정량적 혹은 구체적 효용을 주장하는 국내 주요 20대 AX/스마트 건설 사례를 선별하였습니다. 
+
+다음은 국내 대기업, 중견·중소기업, 스타트업 및 공공기관이 현장에 적용한 스마트 건설 기술과 그 결과를 요약한 총괄표입니다. 이 데이터는 각 사의 재무제표, 공식 언론 보도, 사업 보고서를 바탕으로 교차 검증되었습니다.
+
+| 도입 기업/프로젝트 | 기업 규모 | 주요 활용 분야 | 기술/공급사 (Vendor) | 검증된/구체적 정량 효과 (주장 포함) | 출처 (URL) | 신뢰도 | 한계점 및 유의사항 (Caveats) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1. 텐일레븐** (망우1구역 등) | 스타트업 / 정비사업 | 대규모 정비사업 단지 설계 | AI 건축설계 (BuildIT) | 망우1구역 134가구 추가 확보 (경제적 가치 약 938억 원), 신반포7차 201가구 추가 확보 (약 5,025억 원) | https://v.daum.net/v/20230405172401427?f=p | 높음 | 가설계 단계의 가치 산정으로 실제 시공 후 발생할 수 있는 사업비 증감분 미반영. |
+| **2. 직방** | 유니콘 스타트업 | 프롭테크 기획/개발 및 광고 | AI-SDD (생성형 AI) 및 AI 중개사 | 서비스 구현 2~3주→2~3일 단축, EBITDA 적자 95% 감소 (150억→6억), 고정 운영비 24% 절감 | https://biz.chosun.com/real_estate/real_estate_general/2026/03/27/TQ3IE3PQ6NGYPLC2EI3DP72FOM/ | 높음 | 분양 광고 시장 의존도가 높아 부동산 경기 변동에 따라 실적 편차 발생 가능성 상존. |
+| **3. DL이앤씨** | 대기업 (건설) | 아파트 지하주차장 설계 | AI 주차장 설계 (카네기멜런대 협업) | 30분 내 1,000건 대안 도출, 주차 가능 대수 평균 5% 증가, PC 사용률 17% 상향 | https://www.dlenc.co.kr/pr/InfoView.do... | 높음 | 표준화된 단지 외 비정형 지형에서의 적용 한계 및 실제 투입 비용 편차 미검증. |
+| **4. DL이앤씨** | 대기업 (건설) | 주택/토목 현장 공정 관리 | 드론 디지털 트윈 (메이사 플랫폼) | 기존 트럭 반출입 데이터 대비 토공량 산출 정확도 대폭 향상, 오차율 최소화 | https://biz.newdaily.co.kr/site/data/html/2025/07/28/2025072800068.html | 중간 | 구체적인 비용 절감액 수치 누락. |
+| **5. 스페이스워크** | 스타트업 / 공공 | 베트남 사회주택 및 소규모 필지 | AI 건축 설계 (Landbook) | 종전 기술 대비 연산 시간 98.8% 단축. 베트남 90만 호 기준 전문가 대비 속도 5,600배, 1,819억 원 사업비 절감 | https://spacewalk.tech/18 | 중간 | 베트남 90만 호 보급을 가정한 시뮬레이션 기반 추정치. |
+| **6. 알스퀘어** | 유니콘 스타트업 | 상업용 부동산 임대차/인테리어 | AI 부동산 데이터 플랫폼 | 탐색 인건비 절감 및 자회사 '알스퀘어디자인' 영업이익 4배 성장 (100억 원), 전사 영업손실 91% 축소 | https://www.newspim.com/news/view/20260416001283 | 높음 | 총매출의 약 80%가 인테리어 공사 수익으로, 순수 데이터 소프트웨어 수익으로 보기 어려움. |
+| **7. 삼성물산** | 대기업 (건설) | 글로벌/국내 EPC 프로젝트 관리 | AI-ITB 리뷰어, 자율주행 지게차 | 입찰제안서 리스크 식별 고도화, AI 외국어 튜터(STT 번역 정확도 80% 이상 확보) | https://www.hankyung.com/article/2025111284676 | 중간 | 도입 초기 단계로 리스크 방어액 등 구체적 재무 기여도 입증 부족. |
+| **8. 현대건설** | 대기업 (건설) | 터널/스마트시티 시공 | 프리콘 자동화 및 TVWS 무선통신 | 스마트건설 챌린지 5년 연속 최우수/혁신상 수상, 인덕원-동탄선 39km 구간 적용 시 무선 통신 인프라 구축 비용 약 12억 원(25.4%) 절감 예상 및 원격 제어 응답 시간 대폭 단축 (신뢰도 100% 향상) [cite: 1] | https://www.hankyung.com/article/2025110796476 | 중간 | 수상 실적과 정성적 '지연 방지' 중심의 홍보. |
+| **9. GS건설** | 대기업 (건설) | 다국적 근로자 소통 및 설계 검토 | AI 번역(자이보이스), AI 도면검토 | 120여 개 언어 실시간 번역 텍스트화, 싱가포르 SRTC 현장 무재해 1,400만 시간 달성 기여 | https://www.fntimes.com/html/view.php?ud=202603160032032999dd55077bc2_18 | 중간 | '무재해'는 훌륭한 지표이나 AI 단독 기여분으로 분리 측정 불가. |
+| **10. 포스코이앤씨**| 대기업 (건설) | 고층 구조물 균열 탐지 | AI 드론 영상분석 (포스비전) | 드론 3D 매핑 적용 시 검수 시간 50% 단축 및 콘크리트 균열 탐지 인건비 절감 | http://www.seoulwire.com/news/articleView.html?idxno=679406 | 중간 | 특정 파일럿 현장에서의 결과값. |
+| **11. 메이사** | 스타트업 | 신세계건설 전 현장/ HDC현산 | 자율비행 드론 기반 스마트건설 | 면적, 부피, 경사도 오차 2% 미만 산출, 현장 통합 커뮤니케이션으로 공정 지연 해소 | https://www.startupn.kr/news/articleViewAmp.html?idxno=57597 | 높음 | 현장 환경별 기술 적응 기간 필요, 인력 운영 체계와의 초기 마찰 가능성. |
+| **12. 엔젤스윙** | 스타트업 | 포스코/태영건설 등 | 현장 가상화(드론) 시공관리 | 토공 물량 재산정을 통한 공사비 52% 절감, 데이터 분석 시간 55% 단축 효과 | https://smart-construction.kr/storage/app/images/... | 높음 | 특정 우수 사례(Best Practice)에 국한된 지표. |
+| **13. 한국토지주택공사(LH)**| 공공기관 | 건설 현장 및 임대주택 안전 관제 | VLM(생성형 AI) '늘봄 A-Eye' | 안전 모니터링 분석 정탐률 95% 달성, 안전사고 재해율 23% 이상 감소(예상치) | https://www.lh.or.kr/galleryDownload.es?bid=0003... | 중간 | 재해율 23% 감소는 실측치가 아닌 논문 연구를 인용한 기대효과 수치임. |
+| **14. 롯데건설** | 대기업 (건설) | 아파트 시공 현장 (약 80% 적용) | AI 스마트 안전관리 (CCTV/웨어러블) | 스마트폰 카메라 기반 15초 내외 근로자 맥박/산소포화도 등 생체신호 측정 및 위험 상황 경보 | https://economist.co.kr/article/view/ecn202509100021 | 중간 | 구체적인 비용 절감액이나 재해 감축 건수 등 계량 데이터 부족 (홍보성). |
+| **15. 한화 건설부문**| 대기업 (건설) | 고위험 통합관제 (서울역 북부 등) | H-HIMS 및 사족보행 로봇개 | 최대 128개 화면 동시 모니터링, AI 움직임 추적을 통한 개구부 위험 접근 자동 경고 | http://www.conslove.co.kr/news/articleView.html?idxno=85689 | 낮음 | 철저한 예방 체계이나, 이로 인한 '안전비용 회수율' 측정이 어려움. |
+| **16. SK에코플랜트**| 대기업 (건설) | GTX-A 4공구, 데이터센터 건립 | AI EPC, 전자뇌관+비전기뇌관 BIM | 도심 터널 진동/소음 제어로 공기 단축. 전사 매출의 약 70%를 AI 인프라 사업에서 달성 | http://www.mcnews.co.kr/83166 | 높음 | 공기 단축분은 개별 공구의 특수성이 크게 반영됨. |
+| **17. 금호건설 / KCIM**| 중견기업/스타트업 | 현장 프로젝트 협업 및 품질관리 | Cloud 협업 및 BIM 라이브러리 | ISO 19650 기반 공통 데이터 환경(CDE) 정립, BIM 적용으로 건축물 에너지 소비 최대 60% 절감 및 수처리 등 연계 시공에서 연 44억 원 규모 경제 효과 달성 [cite: 2, 3] | https://www.enetnews.co.kr/news/articleView.html?idxno=38694 | 낮음 | 시스템 구축 직후 단계로 아직 정량적인 시공 원가 절감액 산출 불가. |
+| **18. KCC건설** | 중견기업 | 건축물 도장 및 에너지 효율 현장 | 자율주행 도장 로봇(SMART CANVAS) | 수평면 도장 작업 무인화로 시공 기간 단축 및 화석 연료 사용 절감 (스마트 센서 결합) | https://webzine.kccworld.co.kr/?p=12417 | 낮음 | 인건비 대체 효과에 대한 세부 재무 데이터 미공개. |
+| **19. 한국토지주택공사(LH)**| 공공기관 | 택지 조성 및 공공주택 현장 | 건설자원 공유플랫폼 | 현장 간 잉여 보도블럭 등 자원 자동 매칭, A지구 폐기 비용 및 B지구 구매 비용 동시 절감 | https://www.codil.or.kr/filebank/files/... | 중간 | 비용 절감의 구체적 누적액 산정 중. ESG 정성적 효과 중심. |
+| **20. 밸류맵 / 텐일레븐**| 스타트업 | 토지/건물 거래 및 가설계 플랫폼 | AI 건축설계 서비스 (10초 무료설계) | 용적률, 건폐율, 일조사선 자동 계산을 통한 신축 수익성(사업성) 10초 내 검토 완료 | https://biz.chosun.com/site/data/html_dir/2021/03/16/2021031601182.html | 높음 | 가설계이므로 인허가 및 심의 통과를 법적으로 보장하지 않음. |
+
+위 표에 나타난 바와 같이, 가장 계량화하기 쉬운 부분(설계 가구 수 증가, 토공 물량 산출)에서는 스타트업 기술이 압도적인 비용 절감률을 증명하고 있습니다. 반면, 현장 제어와 관련된 로보틱스 및 안전 관제는 대기업 주도로 대규모 인프라가 조성되고 있으나, 그 경제적 효과는 아직 '미래 리스크 방어'라는 정성적 수준에 머무르고 있습니다.
+
+---
+
+## 2. 핵심 사례 심층 분석: 대기업과 프롭테크의 융합 현장
+
+이 장에서는 앞서 제시한 사례 중 산업 생태계에 가장 큰 구조적 변화를 일으킨 10~15개의 핵심 사례를 기술 활용 테마별로 묶어 다면적으로 평가합니다. 
+
+### 2.1. AI 자동화 설계가 창출한 천문학적 자산 가치 증대
+건설 산업에서 설계 단계의 결정은 전체 공사비의 80% 이상을 좌우합니다. 최근 가장 폭발적인 경제적 부가가치를 입증한 분야는 단연 'AI 기반 건축 자동화 설계'입니다. 
+
+**텐일레븐(Ten Eleven)과 스페이스워크(Spacewalk)의 설계 알고리즘**
+콘테크 스타트업 텐일레븐은 AI 기반 건축 자동 설계 솔루션 '빌드잇(BuildIT)'을 통해 도시 정비 사업의 패러다임을 바꾸고 있습니다. 통상적인 대단지 재건축 설계는 수개월의 인력 투입이 필요하지만, 빌드잇은 30분 만에 지형, 조망, 건축 법규를 분석해 최적의 공동주택 배치도를 산출합니다 [cite: 4, 5]. 망우1구역 공공주택 건설 사업의 경우, 북쪽에 위치한 학교의 일조권 사선 제한으로 인해 층수 확보가 어려운 악조건이었습니다. 그러나 AI 최적화를 통해 교육 영향 평가를 통과하면서도 무려 134가구를 추가로 확보하는 설계안을 도출했습니다. 1가구당 7억 원의 분양가로 환산할 때 약 938억 원의 추가 경제적 가치를 시행사(조합)에 안겨준 셈입니다 [cite: 4, 6]. 신반포7차 재건축 사업에서는 기존 안 대비 201가구를 늘려 약 5,025억 원의 잠재 가치를 확보했으며, 불광5구역에서도 2,000가구 규모 설계안을 30분 만에 도출해 가구 수를 100가구 더 확보하는 기염을 토했습니다 [cite: 5, 6, 7].
+
+유사한 맥락에서 스페이스워크는 '랜드북(Landbook)' 엔친을 통해 소규모 부동산의 최적 개발안을 제안하고 있습니다. 1,986만 필지의 데이터를 학습한 AI 심층강화학습 엔진은 전문가 대비 연산 시간을 98.8% 감축시켰습니다 [cite: 8, 9]. 공공 차원의 기여도 주목할 만합니다. 한국국제협력단(KOICA) 프로그램의 일환으로 진행된 베트남 사회주택 프로젝트에서 90만 호 보급 시 전문가 대비 5,600배 빠른 속도로 설계를 진행, 1,819억 원의 막대한 사업비 절감 효과를 거둘 수 있다는 시뮬레이션 결과를 도출하며 국가 단위 인프라 예산의 최적화 가능성을 보여주었습니다 [cite: 9].
+
+**DL이앤씨의 주차장 최적화와 품질 제고**
+대형 건설사인 DL이앤씨는 세계 1위 AI 연구기관인 카네기 멜런 대학교 연구진과 협력하여 아파트 지하주차장 AI 설계 기술을 개발했습니다 [cite: 10]. 해당 기술은 단지 환경을 분석해 30분 만에 약 1,000건의 설계 대안을 생성합니다.
+결과적으로 기존 인력 중심의 캐드(CAD) 방식 대비 **주차 가능 대수를 평균 5% 이상 증가**시켰습니다 [cite: 10, 11, 12]. 여기서 주목해야 할 파생 효과는 시공 품질의 향상입니다. 이 AI 설계는 공장에서 미리 규격화하여 제작하는 프리캐스트 콘크리트(PC)의 사용 비율을 극대화하는 방향으로 구조를 짭니다. 그 결과 현장 타설을 줄이고 PC 사용 비율을 기존보다 17% 상향시킬 수 있었으며, 이는 직접적인 원가 절감, 공기 단축, 그리고 하자 건수 감소라는 도미노 형태의 경제적 이익으로 귀결되었습니다 [cite: 11].
+
+### 2.2. 플랫폼 체질 개선과 데이터 자산화를 통한 프롭테크 수익성 폭발
+오랫동안 프롭테크 기업들은 시장의 불투명성을 해소하며 성장했지만, 막대한 마케팅비와 IT 유지비로 인해 수익성 악화(적자 늪)에 시달려왔습니다. 그러나 최근 AX 기술 전면 도입을 통해 비용 구조를 혁신적으로 뜯어고친 기업들이 등장했습니다.
+
+**직방(Zigbang): 개발 프로세스 효율화와 흑자 전환**
+국내 대표 프롭테크 유니콘인 직방은 2024년 256억 원, 2025년 121억 원의 영업손실을 기록하는 등 재무적 위기감이 고조되었습니다 [cite: 13, 14]. 그러나 2025년 하반기부터 기획부터 개발까지의 전 과정을 AI 기반으로 전환하는 'AI-SDD(AI Spec Driven Development)' 체계를 선제적으로 도입했습니다. 
+그 결과 서비스 구현 기간이 기존 2~3주에서 2~3일로 급감했고, 개발 생산성은 3배 이상 폭등했습니다 [cite: 15, 16]. 내부 프로세스뿐 아니라 서비스 단에서도 아파트 중심의 대화형 검색을 원룸, 빌라, 오피스텔까지 확장한 'AI 중개사' 기능을 도입해 롱테일(Long-tail) 고객의 체류 시간과 전환율을 끌어올렸습니다 [cite: 17]. 재무적 결과는 극적이었습니다. 상각전영업이익(EBITDA) 기준 적자 폭을 전년 150억 원에서 6억 원으로 무려 95% 이상 축소시켰고, 월 고정 운영비 24%와 금융 비용 30%를 연달아 절감하며 연간 100억 원 규모의 비용을 줄여내는 데 성공했습니다 [cite: 15, 18, 19].
+
+**알스퀘어(RSQUARE): 발품 데이터를 AI 애널리틱스로 전환**
+상업용 부동산 시장에 특화된 알스퀘어는 직접 방문 전수조사를 통해 모은 30만 곳 이상의 빌딩 데이터베이스를 기반으로 합니다 [cite: 20, 21]. 이들은 과거 저연차 사원들이 일일이 수행하던 상권 분석 및 매물 매칭 업무를 AI가 대체하는(사내 명칭 '알대리') 시스템을 정착시켰습니다 [cite: 22]. 이를 통해 탐색 인건비를 극단적으로 줄이면서 연결 기준 영업손실을 144억 원에서 13억 원으로 91% 줄이는 성과를 달성했습니다 [cite: 13]. 하지만 흥미로운 점은 수익 창출의 본질입니다. 알스퀘어가 연매출 약 2,000억 원(손익분기점 돌파 수준)을 낼 수 있었던 핵심 동력은 자회사 '알스퀘어디자인'의 인테리어 및 리모델링 공사 영업이익(전년 25억→100억, 4배 성장)이었습니다 [cite: 13, 23]. 막대한 데이터를 무기로 인테리어 수주율을 극대화한 전략의 승리지만, 총매출의 약 80%가 여전히 공사 수입금에서 발생한다는 측면에서 순수 IT 소프트웨어 기업이 맞는지에 대한 시장의 구조적 논쟁을 촉발하기도 했습니다 [cite: 24].
+
+### 2.3. 드론 기반 3D 디지털 트윈의 토목 현장 장악
+토목 공사는 광활한 지형을 대상으로 하므로 측량과 물량 산출에서 오차가 발생하기 쉽습니다. 이를 극복하기 위해 스타트업의 공간정보 기술을 전면 도입하는 대기업의 행보가 가속화되었습니다.
+
+**메이사(Meissa)와 엔젤스윙(Angelswing)의 플랫폼**
+국내 최초로 상용화 3D 매핑 엔진을 자체 개발한 스타트업 메이사는 신세계건설의 전국 모든 건설 현장, 그리고 HDC현대산업개발 등과 전면적인 드론 플랫폼 도입 계약을 체결했습니다 [cite: 25, 26, 27]. 메이사의 자율 비행 드론과 고해상도 위성 데이터 결합 기술은 오차 범위 2% 미만의 정밀도로 현장 면적, 부피, 경사도를 실시간 산출합니다 [cite: 28].
+마찬가지로 드론 가상화 플랫폼을 운영하는 엔젤스윙은 포스코, 태영건설 등 현장에 솔루션을 납품하고 있습니다. 특정 현장의 데이터 분석 사례에 따르면 토공 작업 물량을 정밀하게 재산정함으로써 불필요한 장비 운용을 방지하여 공사비를 52% 절감하고, 측량 데이터 분석에 소요되는 시간을 55% 단축시키는 괄목할 만한 경제성을 증명했습니다 [cite: 29, 30, 31].
+
+과거 건설사들은 토공량(흙을 파내고 덮는 양)을 산출할 때 현장을 드나드는 덤프트럭 반·출입 대수를 수기로 기록하여 산출했기에 대금 정산 시 분쟁이 잦았습니다. 그러나 메이사나 엔젤스윙의 기술을 바탕으로 DL이앤씨 등은 주택 전 현장에 디지털 트윈을 도입하여, 하늘에서 드론이 3D 스캔을 해 단 한 번의 클릭으로 흙의 부피를 정밀 계산해 내어 하도급 업체와의 분쟁 소지를 원천 차단하고 원가를 엄격히 통제하고 있습니다 [cite: 32, 33, 34, 35]. 
+
+### 2.4. 대형 건설사와 공공기관의 '무재해·공기단축' 기술 내재화
+설계와 데이터 측량이 스타트업의 주무대라면, 막대한 투자가 필요한 로보틱스와 IoT, 그리고 현장 통합 관제 시스템은 자본력을 갖춘 대형 종합건설사(EPC)와 공공기관의 독무대입니다. 
+
+**삼성물산과 SK에코플랜트: AI EPC로의 전환**
+삼성물산은 설계·조달·시공(EPC)의 전통적 강자로서 '디지털 EPC 시대'를 열기 위한 공격적인 AI/로보틱스 전환을 시도하고 있습니다 [cite: 36]. 방대한 입찰 규격서(ITB)를 자동 분석해 독소조항 등 리스크를 식별하는 'AI ITB 리뷰어'와 'AI 계약 매니저'를 전 프로젝트에 적용할 예정입니다 [cite: 36, 37]. 더불어 현장의 언어 장벽 해소를 위해 AI 다국어 번역 튜터를 도입하여 베트남, 네팔 등 외국인 근로자 대상 번역 정확도를 80% 이상으로 끌어올렸으며, 자율주행 지게차 및 살수 드론 등 5종의 로봇을 반복 실증하여 노동력 배치 구조를 바꾸고 있습니다 [cite: 38, 39].
+
+SK에코플랜트는 GTX-A 4공구(연신내 정거장) 도심 터널 공사에서 토지 보상 지연으로 착공이 늦어졌음에도 불구, 건설신기술인 '전자뇌관과 비전기뇌관 조합 공법'과 BIM 스마트 안전관리 시스템을 도입하여 진동과 소음을 극도로 제어하면서도 획기적인 공기 단축을 이끌어내 적기 개통의 경제적 효과를 입증했습니다 [cite: 40]. 또한 전사적으로 'AI EPC' 조직을 신설하여 데이터센터 등 AI 인프라 매출 비중을 전사 매출의 70% 수준(영업이익 3,159억 원 규모)으로 끌어올리며 체질 전환에 성공했습니다 [cite: 41, 42, 43].
+
+**현대건설, GS건설, 그리고 LH의 안전망 구축**
+현대건설은 TVWS(주파수 유휴 대역) 통신망을 지하 터널에 구축해 스마트 안전 시스템과 사족보행 로봇 '스팟'을 투입하여 국토교통부 스마트건설 챌린지에서 5년 연속 수상하며 공사 중단 리스크를 최소화하고 있습니다 [cite: 44, 45]. 여기서 **TVWS(주파수 유휴 대역)란 기존 LTE나 Wi-Fi 신호가 닿지 않는 깊은 지하 터널 등 통신 음영 지역에서도 전파 투과력이 뛰어나 끊김 없는 통신을 유지할 수 있게 해주는 혁신 기술**입니다. 이를 인덕원-동탄선 39km 구간에 적용할 경우 별도의 유선 통신망 공사 없이 **약 12억 원(25.4%)의 구축 비용 절감 효과**를 예상하며, 원격 제어 응답 시간을 대폭 단축해 신뢰도를 100%로 향상시켰습니다 [cite: 1]. GS건설 역시 싱가포르 철도 시험센터(SRTC) 공사에 BIM 3D 모델링을 도입하여 위험 요소를 차단, '무재해 1,400만 시간'이라는 경이적인 기록에 기여했습니다 [cite: 46]. 
+
+공공 프로젝트를 총괄하는 한국토지주택공사(LH)는 생성형 AI의 일종인 **VLM(Vision-Language Model, 실시간 영상 피드를 분석함과 동시에 텍스트 기반의 안전 규정 및 매뉴얼과 교차 검증하여 복합적인 위험 상황을 정확히 판단하는 AI)**을 활용한 안전 관제 시스템 '늘봄 A-Eye'를 구축했습니다. 안전모 미착용이나 중장비 협착 등의 위험을 실시간 감지하며 분석 정탐률 95% 수준을 달성했습니다. 엄밀한 실시간 실측 데이터는 아직 누적 중이나, 스마트 안전 장비 도입 효과를 분석한 학술 연구에 기반할 때 향후 현장 재해율을 약 23% 낮추는 막대한 사회적 간접 자본 절감 효과를 거둘 것으로 예측하며 비수도권 등으로 공격적 도입을 추진 중입니다 [cite: 47, 48, 49].
+
+---
+
+## 3. 중소·중견기업 및 콘테크 스타트업 특화 분석: 혁신의 R&D 엔진
+
+대기업들이 현장에 대규모 자본을 태워 하드웨어 인프라(로봇, 센서)를 구축한다면, 중소·중견기업과 스타트업 생태계는 알고리즘 기반의 포인트 솔루션을 통해 건설업의 R&D 엔진 역할을 대신 수행하고 있습니다. 보고서에 따르면 건설업의 자체 R&D 투자액은 불황 탓에 지난 10년간 약 26% 감소했습니다 [cite: 50]. 이를 대체하는 것이 콘테크 스타트업들과 중견 혁신 기업들입니다.
+
+**전문건설사 특화 솔루션과 협업 클라우드**
+중소 전문건설사인 흥명건설은 철근콘크리트 공사에 특화된 시공 BIM 시스템인 '스마트 폼 시스템'을 자체 구축하여 6건의 관련 특허를 획득하고 현장 원가를 획기적으로 절감하는 성과를 보였습니다 [cite: 51]. 구체적으로는 강관 제작과 같은 비정형 설계 구조물에서 원안과 오차가 최소화된 2차원 아크 형태로 데이터를 변경 및 최적화하여 **가공비를 2배에서 최대 5배까지 절약**하는 등 실질적인 원가 절감 성과를 입증했습니다 [cite: 51]. 이는 보통 대기업의 전유물로 여겨지던 BIM 기술을 단일 공종(철근/거푸집)에 집요하게 최적화하여 낸 성과로 시사하는 바가 큽니다.
+건설 IT 전문 스타트업 KCIM(케이씨아이엠)은 금호건설과 협업하여 ISO 19650 국제 표준에 입각한 공통 데이터 환경(CDE) 기반 클라우드 협업 시스템 및 BIM 라이브러리를 구축했습니다 [cite: 52, 53]. 여기서 **CDE(공통 데이터 환경)란 모든 시공 참여자가 동일한 최신 버전의 실시간 도면과 데이터를 공유하도록 보장하는 중앙 집중형 클라우드 허브**로서, 불필요한 재설계와 커뮤니케이션 지연 비용을 막아주는 중추 신경망 역할을 합니다 [cite: 52, 54]. 이 시스템을 통해 구체적으로 BIM 설계를 적용하여 **건축물이 소비하는 에너지를 최대 60%까지 절감**할 수 있으며 [cite: 2], 현대화 사업 등 연계 시공 시 연간 92만 톤의 누수 절감을 통해 19억 원의 생산비를 아끼는 등 **직·간접적으로 연 44억 원 규모의 막대한 경제적 절감 효과**를 창출하고 있습니다 [cite: 3, 55].
+
+**자동화 로보틱스의 틈새 공략**
+중견기업 KCC건설은 도료 업계 최초로 자율주행 기반의 수평면 도장 로봇 '스마트 캔버스(SMART CANVAS)'를 개발, 도장 작업의 무인화를 시현했습니다 [cite: 56]. 이는 악취와 분진으로 인해 기피되는 건설 도장 인력을 대체할 수 있는 실질적 비용 절감 도구입니다. 더불어 스타트업 카르타(Carta, 메이사와 관련)의 드론 플랫폼을 융합하여 독자적 기술 내재화에 투자하고 있습니다 [cite: 57].
+
+결과적으로 텐일레븐, 스페이스워크, 메이사, 엔젤스윙, 밸류맵과 같은 스타트업들은 건설사와 시행사들이 수주 및 기획 단계에서 수억 원대의 인건비와 수주일을 소비하던 3D 모델링, 원가 견적, 지형 분석을 몇 분 내지 수초 만에 해결하는(밸류맵의 경우 10초 내 가설계 도출 [cite: 58]) S/W 엔진을 SaaS 형태로 보급하며 국내 AX 혁신의 실질적 최전선을 형성하고 있습니다.
+
+---
+
+## 4. 검증된 정량 효과와 홍보성(정성적) 주장의 한계점 및 시사점
+
+각종 프롭테크 기업과 대형 건설사들이 발표하는 자료들을 교차 분석해 본 결과, 맹신을 경계해야 하는 부분과 분명히 입증된 팩트를 다음과 같이 엄격히 구분해야 합니다.
+
+### 4.1. 분명하게 입증된 정량적 성과
+정확한 수치로 검증이 완료된 영역은 알고리즘에 기반한 **'설계 세대수/면적의 극대화'**와 **'원가/물량 산출의 무결성'**입니다. 
+* 텐일레븐이 규제 제약 속에서 학교 일조권 사선을 피해 망우1구역에서 창출한 134가구 (938억 원 상당) 확보 실적이나, DL이앤씨의 주차장 용량 5% 확보 실적은 재무제표로 즉시 직결되는 거부할 수 없는 정량적 효과입니다.
+* 메이사와 엔젤스윙이 제공하는 드론 기반 토공 물량 산출(오차 2% 미만) 역시, 불도저와 덤프트럭 대여일수를 깎고 하도급 분쟁 비용을 소멸시키는 즉각적인 현금성 절감 효과를 발휘하고 있습니다.
+
+### 4.2. 재무 수치와 비즈니스 모델 괴리에 대한 주의보
+스타트업이나 기업이 대대적으로 홍보하는 재무 수치 이면에 깔린 비즈니스 구조를 오독해서는 안 됩니다.
+알스퀘어가 프롭테크 업계에서 2,000억 원 가까운 엄청난 매출을 기록하며 적자를 91% 이상 축소한 것은 사실입니다. 하지만 정밀하게 분석하면 이 매출의 압도적 다수(약 80%)는 데이터 소프트웨어 서비스 요금이나 플랫폼 수수료가 아닌 자회사(알스퀘어디자인)가 수행한 인테리어·리모델링 건설 도급 수익입니다 [cite: 24]. AI와 데이터를 활용해 인테리어 영업 타깃을 매우 효율적으로 발굴하여 판관비를 줄인 '스마트한 영업'인 것은 분명하나, 실리콘밸리식의 순수 소프트웨어 확장 모델(SaaS)에 의한 마진율을 기대하기에는 건설 원자재 가격과 인건비 리스크를 고스란히 떠안는 한계를 함께 지니고 있습니다.
+
+### 4.3. '무재해 달성'과 안전 관제의 인과관계 모호성
+건설사 보도자료의 주를 이루는 내용 중 하나는 "AI CCTV와 웨어러블 로봇, 드론을 투입하여 재해율을 극적으로 감소시켰다"는 것입니다. LH의 경우 95%의 탐지 정확도에 기반하여 재해율을 약 23% 낮출 수 있을 것이라고 '연구 논문에 기반해 추정'하고 있으며 [cite: 49], GS건설의 싱가포르 현장 1,400만 시간 무재해 기록 [cite: 46]이나 포스코이앤씨의 검수 시간 50% 단축 주장 [cite: 59] 등은 훌륭한 성과입니다. 
+하지만 구체적인 현장 재무 회계 관점에서 볼 때, 스마트 안전 장비 설치와 유지보수에 들어가는 막대한 비용(디바이스 구매, 통신망 구축, 관제 서버 임대료 등) 대비 실제 사고 예방으로 세이브된 비용(합의금, 행정처분으로 인한 수주 제한 손실 등 기회비용)을 정확한 ROI(투자 수익률)로 계산해 낸 국내 기업은 현재 전무합니다. 엄밀한 실시간 수치라기보다는 ESG 경영과 중대재해처벌법 대응을 위한 필수적인 보험성 지출의 성격이 짙음을 유의해야 합니다. 
+
+### 4.4. 실증(PoC)과 전면 도입 간의 온도 차
+현재 건설 현장에 돌아다니는 현대건설의 사족보행 로봇 '스팟' [cite: 44], 한화 건설부문의 3D 스캐너 탑재 로봇 [cite: 60], KCC건설의 도장 로봇 [cite: 56] 등은 여전히 기술 실증(PoC) 성격이 강하며 인간 인력을 대체하여 인건비를 절반 이하로 떨어뜨렸다는 형태의 파괴적인 임금 대체 리포트는 아직 생산되지 않고 있습니다. 즉, 하드웨어 연계 AI 로보틱스 분야는 대량 양산을 통한 로봇 단가 하락이 동반되기 전까지는 '경제적 효과' 보다는 '안전/품질 보장'이라는 정성적 영역에 주로 기여할 전망입니다. 
+
+---
+
+## 5. 향후 산업 발전을 위한 제언
+
+결론적으로, 국내 건설사와 프롭테크 기업의 AX 혁신은 크게 두 가지 트랙으로 분리되어 진화하고 있습니다. 
+첫째, **정보 비대칭성과 복잡한 연산을 타파하는 소프트웨어 AI 영역**입니다. 건축 설계 최적화(텐일레븐, 밸류맵, 스페이스워크, DL이앤씨), 공정 스케줄링 모델, 직방의 AI 개발 효율화 등의 영역에서는 100~500억 원 단위의 구체적인 부가가치 창출과 90% 이상의 업무 시간 단축이라는 극적인 정량 데이터가 속속 증명되고 있습니다.
+둘째, **물리적 현장을 통제하는 하드웨어+AI 영역**입니다. 드론 기반 디지털 트윈(메이사, 엔젤스윙)은 오차 2%의 정밀성으로 이미 토공 관리를 평정했으나, 시공 자율 로봇 및 안전 관제 시스템은 사고율 20% 내외 감소라는 예측 데이터 위주로 작동하며 비용 대비 효율성 곡선의 임계점을 넘기 위해 분투하고 있습니다. 
+
+향후 스마트 건설의 성패는 개별 기술의 화려한 도입 자체가 아니라, 메이사가 신세계건설 전 현장에 구축하는 '무인 드론 스테이션' [cite: 26]이나 삼성물산이 통합 관제 조직에 도입하는 'AI 프로젝트 분석 도구' [cite: 36, 37]처럼 현장의 파편화된 데이터를 전사적 ERP(전사적 자원 관리)와 완벽히 동기화해 실제 시공비와 인건비 누수를 막아내는 **데이터 융합 역량**에 달려 있습니다. 정밀하게 측정할 수 없는 것은 개선할 수 없다는 격언처럼, 기술 도입 이후의 경제적 효과를 끊임없이 모니터링하고 최적화하는 기업만이 지속적인 불황의 파고를 넘어 새로운 차원의 프롭테크 유니콘과 건설 명가로 자리 잡을 것입니다.
+
+## 출처
+1. [dec-w.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj7KcEB7Hpukv-eu98YIvEQCgMGPQ8ShPp2CsadMarTOlU4ObvKTM-5eRWadJlrWYTyWfHhaNojVbUIXyxbYmWmlaQix-rwo87EKbKfBP_Rw==)
+2. [donga.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOLiUBv27dNqicvn-EWVudlozHzEXfCitKJVYSX2fF5VsSJ0DrTEBFjY41LG5zh7kmdg7iWhohq4BNeznW3kXkA_S5wLdqMjrhsWIVxrgsUjKCkw5aNVT4XNFJ39ZgRHZ_7gXcWEOgnpJFuZs=)
+3. [conslove.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPJCPtb7Lv5dkSKs3fdVrSOCZmO7RJ27hiMgMuAxpUm5jQMDzYArlQVOOknrHZZ4yWdWyF2hAJmcJOHA7km1BNoelboIOyZdfISmuIzlxFQKIQ3nXMp3oWOqyXOwHx_AljLbnreT6AC0ByuffgZeGHQ==)
+4. [kglobaltimes.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw6LHdCbJoREMUvygqnigzQAGiMBZEIhB3lPgs53C1coe2_3ed1LKjiTC5uDBwte8m4Z-IZ2NfHay53HxRrSjybFie4_MR8h632T5gopL1j9ZbrXRXdVrN23fpOpHfgf5vx6_2snmvi40dCWSDAKo-WnxHT2U=)
+5. [hankyung.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6ueZwLllVxe058l_uiXr-wuT6p_nkO40vsowLyUMfn1vItFyBsZN4oFAICNBZE2i0OBP4hSWw4fvkdFETZX2VsECbgmOcBdcKigWWBM8T3QsbdkRCJU4Tj8qE8F54oD_QS4f)
+6. [daum.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJo31ScQdszQJEGLEpuRkDP_o5UG_UhnSFlokBrN-QHX_zkJh1Flk19J2kCsuz3_Iojbzqt-Nh1pHIng8RFluNoHGUjbpnoJQNnowC_1-_YnyR6vYxDImnEUqgViljE94=)
+7. [m-i.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUAjOBtpshAB64TR363KNucjUEPydfx0HUe5xk1FpPUBFkRRb1GpmzRAqiwZBrZ_FBFCVpA0PJ-Jvo5Tqag9OI3ypZNUmYPZSqedaexzrRVgjagDTcknBeIlR04FsJ0ZxqALDnHMeYdhGqXQ==)
+8. [mk.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQ0Hqt9Vx1W3ykYpVL6uPLkfKlTx2L2jwpC8DxwI_OwaDPuI9KCGHmPO1Z0fN-Hk0_88-ttVSKmEhCxY5CszENja0DsylXgqADhDvutFw8_bqyWyqzTjjg7go=)
+9. [spacewalk.tech](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZm_fGO2qderuLQ0O-vdHu78MtlcyW9Kw7_7Erf1BglHGD9_LlGgMO4pqgxBlOEf-gN5qo3cQbDzPc1l7kraUT_Vay-MD1Lty3N9ddsgnY)
+10. [dlenc.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbFjAZ5yYlDtxVG8QsY1MRLJrXFXoUcxb4_H0nODLtHqEBH6xgi7xfpmcLJKj4bjCnigUbczbieT89T-XN9bMKjC8ls9KAFINTU8hAW60z0Rp80869X9ikKcMlZI1aylt9NTqmWEhe0PWHxKpeO6YKsOOERLQLBYn6BwzUYya2v75ccvEwupvJjkn5P_OBlQ3Va7ZMpFVQHAyBxD8A_h4Y0cE4AX6mOyZrUX_rjeeaGxZ3uyZk81oL8dcq8fbOLLMKOR2O6qGhyfsj3ompmALbZ7Z1AQQT37RqPK-N_D3VyH5MAETWI2AhuZpSJh91YUnpUEpVIIpe2_yfyk7xeZ_nUxhUhkGJ43VZHNtSMssKo1FUteszWkdEv6EBAu0c0ZzlMQqrC2TIi-wrP-GidOLQCKTLMylg9M1pTKwy00ZAa31gOiwQcEyEwgqKATuoB4Cv4HYDGDqt8hFo3QVjkhb-QtQdVFOsrI613rEGAC_I)
+11. [insidevina.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQNfkf9_MhSp5mpfSbWdWn0D1hC81ej6gglle5oyh4DXA_7jXssrA47n2goOz8nUSf80k7Iw4lItE0JB_H_NutI0u8lxPePXI17byWW_d97L9vZytZJmnC8WNocOyOWKIZf_YtQPlcM4uTCHD-2xsTYY=)
+12. [chosun.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBE9QLL2OQwvgAFe-a7Eu5stf_TFxwRGEv3LSxqXF3iqmqnViN40e8ZmGwpYf0wCYY5nPZ_6iGAlPGSkpVPTAClli7jvNZt7prm_Io-YeZY89QhRH0UvHUSW-YBAZaq_caHEEU4va_Tz1NebkXeE_7yWy2Ts--blrxzxIK1eBRtZVq5wzOt2g=)
+13. [etnews.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSmPYQo5Awa5dFZF4LvjjVoNh18JrmpfGpHJeKxn65YQ2zOE6APvSy9liuJ0xhNk64xWvPGWkTYOYFFRHUKv3HF8c8pe4cr6cKpo7fq1kwzno9Zud-2VkuYZ3C)
+14. [newstopkorea.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAp0pLTiOve8SiHAkUYyDnE33_TqfKObWTBZL6FtvqejbfO-pJPdGzg9caZGge1l_7s7gEsOa8XZefIlcmwyPZOsxiGlf5giiSd_JQbjlshyjVXk1x6dTf99LaDuWQNa_D__Ltv6bOLDLcgyaQGSEimQ9agQ==)
+15. [chosun.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESGI7NpUpAhjSHZ13ifptULQ-C1andOSfeO5FUWVX6Toxu6IG8yDhLuG9o2ysvzvdAfPd2iw-ciBcwU3xwJ5SAoXIQnnt4eui2F7wXD3Odf04CKvjEwUIHmYJ4h6_T_xN5HxJ3Q6yu7Y9NKKwomS_eFsUUDqOulP9vqFMgsag1fdCUhXK1Ys8iSKIgDLz4-mEj1KM=)
+16. [news1.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0gbG2d9I3gkrBDok64aPl6E-vzEbFMMNuyuTiXmdNF8l3kTclJHyzqzCoLiOA0LsBADoqctjOzowzcnZp3H6nTodPSv-e6Z4ETqx24m5V2Vqi7sxdcE9Od3HBAtuANHGnwZIaEg==)
+17. [zigbang.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2SiPbEqNt9cxw2ygj8feEBvDxa9IUam3YoozhGIz_5fMc5_LLope1_y2vYKTMnYLyTiGIjv7rweTeG3GCM0TYk9ry520NeK1dsFMwL-PH7qNA5KPZ2KaAiYr03WsN4EWETBrq_nMB)
+18. [3protv.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL5v5eAUNdS8ISu85WetFNyXTYnc286Rvsspg7WyDSrOCRyl-2sWSJkAJ_kgQ7s2LhaZfj1wzR1a6Ys37oaWjwpJ4EW-8asfEMsmf3v1cJ7JWK_ppmBCriHYJivQ==)
+19. [newsis.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGutsnoPaeKivT6aQGnmVVAH7aGk3dTixWBQW6z3VDPCUsrIKGRNpRlAyDAw3gEwgmvm6SsU7mzt1oD9gbQsrdGeo2izpIz4zzdcaOvShhXZ4StbErSkY285acUikNNZIXaBS9J_LcYu4AP1Pc=)
+20. [platum.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdtZjljy-E2n2RNPvHh-G1sT7tJ2zqAAAeozk9kM7hRRE09qVdajIb9bxHwv38Pb_QLJLSnPrdzwnoR1Cq0DcVp8ZYRxVttY9LlkecVE1MEQ9MxvfvdLI=)
+21. [rsquare.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2XphdOj_nnnufUgqU8disJsYYhIe_eMhIV7EnVJLxteKcMsK_U6_NWt5HzZcP41D3ifiElkAXsVlbf0o_sbq3wq0Im-pmCIPPuIyDzVH8j8mXuPNGvntRjkKeGdC1f_fZrEUggdMpSdPhFbKnewo1Yi08EQ==)
+22. [newstomato.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5vluI5JCMN6TKuhXEvcZaqklMiIR34iq_KSYPq6vOtVMMXuhP6kOB23w5hddb6y9t-rELTOwSEe8fxhT3OY5z2ozD_YWVWhzwaHT4Df3SxgG1qoOF3tgMwOZkga6puuDnC54sty4z6AA=)
+23. [newspim.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbEWy8IgWPAzThGBrYjE6LQwCGKZ67-vjdm_CVNnSwDx8bDFdSM7pIuFFEqz069tvm8hv-ajr9NJB2Q8TZ9xAPfWcyu92WpuEWSMnyzxbhtkHzEEjBJhA0415MB4VZHU6v0ONWsYk=)
+24. [chosun.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcDOlq6I9Soqx6tdD241YbfT7OnwhgvRancyOvormL-OH7Lj9dii0w-iXDo8Uv6gnE0tM5Irm_S-fVPG6XOhwWliFS8ayRO4tu1_Lv09bXJYUQ4O0vK8TnxmOAIQJFuNXDIB8GRcgloWvCkDQg88InHw6-YCN3mBmAHWdFXooJ8A==)
+25. [zdnet.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEADG886_Ao2IgKtLrxx44ZRvpYzeqPfV9bD_pUX3FT3I084jVwDsC3xpE9f0MjPV1SnT6C_BiY0dy4yME5yfa2AdBcuIeyzgNpOzE0jISdzP_OTxA6TLe7bMIZHzFvRHIk)
+26. [startupn.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjRo6wN6fCw992BblBrv4mpLSy1iTnHJJPcjFYRfJX5PjqgI8w74ufibyusZ4OoYyIPU3ymVLPRJ6gw5D8Sq3P3RMnytFEe1ThZDGgoE8zFD-rZTIYLlDu3oEhM3rmr1A8pZysaokqbtvgfMYFPsLjCPY=)
+27. [meissa.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFunDy8_BN90PrAVxV_RGnGJ5nSO4OK2N2b20Wy2-qBdKh4MLJv6CnachN7Bp8lFoP6Swvp_KGth-DNPuMcM3RVAEATs-J4n85Wk7NeRz0hWA0WzyRSV61jl95)
+28. [itbs1.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU64BRCdVmk9gNZ2YNN3mOoEbgORtBPdqh5pyRy7AYHOLO3t-yCGOwSCO1H9VWVdPMpgHN-flfLSXgo7ClOlx4Bt02CiXf01tqe5h4IqGfRpvcdeU2eY8j500CPSvIdvF-6Os18sm_16XtNdXIsSk=)
+29. [dailybizon.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ6L9oTDPwcxgHjabiIENkEQ0GHIPMASgtnGcf1uwUYqXT3y0hcqjrgVQorH3dAqzDgCuZZJ2T9lr10BoFEuy2in5LJf_J-qyPzv7hpld7I8Yujf5Pdv3Uhdcg016ZPUzLiVCfOWUHN42gFwmkC8c1LC4=)
+30. [smart-construction.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaDyUyy_P7yWhlaF0tF_2KYOXeEGptZWvQA224fRl0P3fVjLlnd9E4zbyAqA6zLC7tG-dBmLk-elrNm4zPckW62QIQDuQD9N-DAQGqKhZazDyq-fEdXzosdd-nun7WUNm_1QOHB8kAoAjDPeTF63vxVs0j56yJdU7tNJbEG-DDK8nt2tDcRCO7kdGi)
+31. [heavytoday.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzhIA9IpzWEBemB6RB0nuzjd-5N8jcFwy-SZDJjvN8Qubmx1Yb8t6nN-8ynYi0z_6AxJRdS9NzEVw_MFJGMK8BaNW0JJfl8C19_w_QtOwmdD55IJzDzEYqdXxgPsbmIIVD-WUyNbh_6PJeZEHBb4y-aaY=)
+32. [newdaily.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfkOxY-fhonUSSPJ6-sGT6p3_NxGtYWIINJ9f8MJppSuxqyEYyVVro0KRuw1H7O33JQvItN4wfIDbexGYKWoAxDL9KKO_YnFckpAAAeNUdZVxWqU7c9olhyipMCxt6lQm1Wea6IAtWB7wYcfr7xDKnYUAuWj4C7bGSXERJeg==)
+33. [meissa.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFux6b3cuIBfCFkN2ObT4MShqDjotTIOcKj7NQowhjCwqCLgKumUxJyuTNVgtqGA8XB-c3knt9LUbO0cReuD-ZyyNlQVSH3IjQ3YCJUsf-Or6rQtz8W7tSUUxkZ)
+34. [edaily.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyejQpcFqDabPLgxqLonQEXUrsnfzV363cp_ZWMJADq3b35h0b07djlKiVa91nV9lnvn6b67CkVDMVQqEZI_GUwCaO1TcilMYB068DpD7Jy4KPn0dTVqa5MZfp745TdSoYfRTzzeQzqgv2FHBwrO_EUvVR7TmzUA==)
+35. [newsworker.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1aCWJxIsTOSQarytu6WVLHKrG_WWUH-ACWR8ZdZZJqR2SuAQgV8Mzh0GVtd2BjdcW4lyGW6p0_vNOv2RO-HS2imocNj88QaKzib5ABDNhqESOK1eQvFXyJDlii71fKnzBoCJcn_6AlLRkGRhmrmTmWHNILw==)
+36. [seoulwire.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO7ATnqU36EAdp1D88TUS7uQq5g_GQHznkl67kQT7kyY86MEozcRZrjjyqHRxkRFsj89gFjLk8GHjLxdwgvkHXXTEtu4QpT7W6ELwklxWleySPi3X0s7MYsyBHV0d-mt0tTTrRMAiIybzAKpoLDuguJg==)
+37. [hankyung.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJm3QvO8gmFm-oQ-Y8NB4RcvMfryAEPG-DcfWkDKAA8xBD8acBrzXKJrNU38JDmwzDjxDbZaZQBNl2AdIsmNkmI7sbQ5lQ8QvuSmV0f9Dnn1SnmxHm3i__tz36fmKKnnFoXoFf)
+38. [goodkyung.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNhzlw40e_9EPz-KKuXUMujD5JMYEAyLcwDT5cGyCLFwUT6u2GBGeIuBni4OmMCuO8xnCBoo8Qqad9PMnzsN23tGQ4AFeK58n8yYFl4hOSqAAyu6bfj-HcUJQbIqz7LqJtpm6WMmeu333BSw4NtUpA4CY=)
+39. [fntimes.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0DIYPhZ2x0miHynU6VEm7SSz2IvnOp-9A4z4LRbXsDo50a26-MvhRRNkBKds_2vkX_rbh2VprzgP6uBirDwBwRMnE1Xqkwpdnr6qkaHxECeQ-VJvTiqKtaP4q64s-ZcRv1MvouxZAtZzliiHElhl7DOMDCmkulZNGzJ6oynA=)
+40. [mcnews.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmOwWzfjRRdIE-Mg0PMcnqEKH30s8R94Ek4nWnTPFk8na90a25y2N3xrYX3BHRCwTcQH2wL7WfvIU5JoKkV85YPhZa5kQiYB0n3PqBljFb586iXw==)
+41. [enewstoday.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEebquPrM4MhZuvsaelKgY60QD1sMwsmAZnEOy3M3jA_U5Gn4j4rnr1drEQrL98oF-hShvUDh5rM5-iSSgBCIvuzhxIWyXx4G_HkS2bRdS-AfjVumBn6XV2v6MCeIlvmk8rHONtCVre3cKx-lXN1fnsaFqqysU=)
+42. [goodkyung.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx_w9n27f2y3Ou1W85K-hvB2z_dTteDVb06UqwodQC_PBCDagOx6bNW4_oXRw81AAejTgt8JJZdGKOyme889lr5KID9dGEdbKUseWeSkoplr3aFtVkBmXQlU1ZDBSwxDsF79SKzaOgQWOOtLCYdaMwyb4=)
+43. [hkbs.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnJB8bIAuOzYyqaWi750zr9yzOiLuOlrEMyDBSROOzXdFRVMDWkgLof4Z-NEhA3x4SuWCPycIOO1zTgsC6e_6RD3IKKfxl-2_Hn2VyBPjLQL_SP0H-QorHDK3mBB0DRYDq_sj-AQMzOSA4kC4VfoU=)
+44. [ekoreanews.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoXWcbbuGnMTM_SgROI8qhI-1uYM40e5ZPn4VWNuJMaKHP0rOavmVlMPmnIPE2UoN-yZQKFXjUF2xK_IcsRp0be7CUQRMt0M-VzDjplVoxmTnbRFDSewirnS5he0AdUkunAZIcUZPcSbooKR0U-OgB1rHOOg==)
+45. [hankyung.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2pJLgF6Ke3ZR1XFvPzcfMEk16ZYgj7K80GNl4CfMvrplVI_FA2GUDM3TaD9JOP1Cjw1nX2SuD4BSSPGXmVN3QRqsNkTajFk67j7KNK-fSaqUgjxK6uJjZxlEfTNywVrgtdFGT)
+46. [hankyung.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyA_k_fpyyj8EhAfciejZd-ZmVVs46RvK22DnMT3zhxUW_7lm-qehYmcWYeJJilRnLuq6HTSf_F7A_BHQsCd_a7BDswXt1cIJXZa1ckf48Qf9pRlWdjdqJylnRWozvHqA6wA8H)
+47. [edaily.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoVkXm5hcx21qUFmCdYcavP1-W_NovclwyHkvgVhGYHdNjYKIAIy68Xxwqt5_OjVX9JL3hMUULWMcSQL_zNvLoChXIRRD55UMmh823uxw_wJ8l8rWnNTujffM6SJ_b6nWaCHel6rx-aOCA83B6dE3dUSd3g0qCQQ==)
+48. [thefairnews.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7V4jQWTD1YZCJNesdQwVRJtTAokhFnnWX_pg_rez-bgG3P6dTLqOapsSf4rT8Uaz8e-C85e-e-2iT3plNkuVDZxZOY245-YUIHcmYhe36nycWKOIJf-jUp50qpMiWnegGldp1F_e1gICEYuVh-_dYTVxyErM=)
+49. [lh.or.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_XwHX8TPPGlPyfL8g5aZ8qJRBFlqB65dy50qqanNYV67wBl6SnwD0jhrlkZTet-kwmpJtVtky-O8RwiFYCwQGpcpyBKo0mvnfCDls1h2hUaJG3G7D0hNgOKzsUfyPJT-64bvp6o7UPkwVbLDjwm0QdiFC60-5RAcD3Q==)
+50. [businesspost.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWMqYq7Q5IEbyArl0IbvVbLp6GqYwhm9dWv1JVrmhmJwPMs5ztJ3rxPU2xtOfK4yEAK2Z4h-VlB13AWmj76ZfDxc_EjbUWK0HoiHCKzEwGiJnlNpWFBTyMykOFH5zPdi7o6qSXr5CIQsMbuJ2HeRR9mD9JIJ74zQ==)
+51. [conslove.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwY8pjigxTWb1z-V21_Qw50sSwTXpAtqk4R_wT7gyALOZLeN1FdeNUJClgcR5lViPFjrJBN3mG0gpvF71uypCU3Z1CrG_x54bMVwZa_R8kmVoeRnJNU1OuYvLRGNbJGJJ2FtNhBPImbLuen0YawSRKcw==)
+52. [enetnews.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM1MnMKcwIpPHffoyacl2m0-RVmEqkOC_0AQebwscggFoOAxLx4MD6vdn-YH7EsH1bgN3cxjYhyliU1X7SBNi-DO9Iz28quLEzKSMw9HWVZoeaXB5zaoFafyvmP2HaMLB7K5yF0wPYCV_wJsw55YS0sNU=)
+53. [newsroad.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl4zo1mvP15iQft8ir1U9npinAybb4CaU3u7wMGV91g2bqmCrahLXTs0LCouBc72H_89CET_nUpkoGl3PRgtYURDJFS1CvGTsNGqHhWg6UpAeAzjTcC1oCb_iXilCxi5E_RaPiBRrSLQzSTNAbth0Mow==)
+54. [daum.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFIk-GOSc7Bhgypmp9gMjKIDFelfdp5M5OvvESYB1OYdw0dEJY_-7SoTi2pq9WUHtfu0L-ct5GyIlPPAhCe3w0x65wTsd5z3lBHKZyMp3lrblz214V_jAgX_y-9284oz4=)
+55. [srtimes.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHflV0kIFKrPhfmMk_VAyvOQ4ra889847c1BZSRtanxYKxgg9DYiAXNdf0rbY25bieXRCRc3ZEU21_lH_ARM2Jz-5uMds24XjEvnDFrdklZprQgaX4oA3kFa4gQ9Ad1k2n-MQ8ZwfeZq3IrKst8ZQ==)
+56. [kccworld.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqfh9D220kEV1E6NXDl5T5q-adqrP0ON0Xpw5SIbTjjG7KfD-RxDWI16j7meCq-O6kzVCRWffO2CaP8QMn5KKCCsk71Pp4wBngWeyyEBoNvofQ1BoaiJuyabEd3UE=)
+57. [meissa.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8wPGPg_9qQ9asC48qBpt6yNouJ9CsSqFRfIZxI5pJH6fpqoCfg91dyRkElVKX7tM2IeKRKPN1aXLZGIRZwbCcE1lLnhPcJb8vsxujTKPs9qb2CCAMyN6EDqTkS0kUm0tNzu8_nWSnqO4JYXD9hwCElg4UPbHnfSKfOuOV2pmRn9s5F44F8hbMcvsN5dcBWa3tPJFioQ==)
+58. [chosun.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGENCd-JxoVtswqaDOTHANBCO1X_O7H0UigR_Qs5Ns5FSXTHUE6fEemQ_Pmxm3K1Tah_gStbJCMiqx4Tea4BJB0jFML1KIlOpjjtJuMZeQxbKtvuJ94dvN3eIktjQR_2oQPs6UQrkVVn9jbYPLNoV2YnGhnCGrpCK9Zghcg6g==)
+59. [seoulwire.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyujwt7aQm931GsnkSOkMCZbyCKizfKIqZRI-1_WSEhy_V-LFPOD-UhYzZmouyJ4zcjeP5nn9654QZRWoIE4_5LgO8OeRLetUANGzNwcv8e9Ey6byh8VgRwPfTV_p431b8wvEJjGBLxhvC7B_JN_6WeA==)
+60. [fntimes.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgiTtuF0PxnG71x83qeo1sxlLj7ZrS02q_MYJ__4Yd8uBaKP4AwggP1qG94GhgRwPNem5DMYXkvn7P_wKPl8UEbBwmIAPHQ7lvdkH780zjCMeqy6ykKGjOEopky1iexisWvUVSYPV3phd0_YE_2JKZeNLa19--mjJIqjhp5Nc=)
