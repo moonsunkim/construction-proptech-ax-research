@@ -12,10 +12,9 @@ slug: /comprehensive-report
 
 건설·프롭테크 AX는 단순히 “낙후된 산업에 AI를 붙이는” 이야기가 아니다. 더 정확하게는 **이미 돈이 새고 있는 업무, 이미 책임이 커진 업무, 이미 데이터가 쌓이고 있지만 연결되지 않은 업무**에 AI 운영 레이어를 얹는 사업 기회다.
 
-<div className="doc-figure">
-  <img src="/construction-proptech-ax-research/assets/visualizations/ax-business-opportunity-map.png" alt="건설·프롭테크 AX 사업 기회 지도" />
-  <div className="doc-figure-caption">건설·프롭테크 AX 사업 기회 지도: 도입 압력, 예산, 제품 웨지, 데이터 확장, 포지셔닝을 하나의 흐름으로 정리</div>
-</div>
+![건설·프롭테크 AX 사업 기회 지도](./assets/visualizations/ax-business-opportunity-map.png)
+
+<div className="doc-figure-caption">건설·프롭테크 AX 사업 기회 지도: 도입 압력, 예산, 제품 웨지, 데이터 확장, 포지셔닝을 하나의 흐름으로 정리</div>
 
 핵심 판단은 다음과 같다.
 
