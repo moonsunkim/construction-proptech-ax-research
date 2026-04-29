@@ -2,8 +2,60 @@
   --ifm-color-primary: #1f5eff;
   --ifm-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
-.markdown table { display: table; width: 100%; font-size: 0.88rem; }
-.markdown th, .markdown td { vertical-align: top; }
+
+/*
+ * Wide research tables contain many columns and long source URLs.
+ * Keep the document layout inside the content column and make each table
+ * scroll horizontally instead of spilling under the side table-of-contents.
+ */
+.theme-doc-markdown {
+  max-width: 100%;
+}
+
+.markdown table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.markdown thead,
+.markdown tbody,
+.markdown tr {
+  width: max-content;
+}
+
+.markdown th,
+.markdown td {
+  vertical-align: top;
+  min-width: 150px;
+  max-width: 360px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.markdown th:first-child,
+.markdown td:first-child {
+  min-width: 130px;
+}
+
+/* Use the page width for content; the left document sidebar remains intact. */
+@media (min-width: 997px) {
+  .theme-doc-toc-desktop {
+    display: none;
+  }
+
+  .docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module,
+  .col.col--8 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+}
+
 .heroMain { max-width: 1120px; margin: 0 auto; padding: 56px 24px; }
 .heroSection { padding: 48px 0 36px; }
 .eyebrow { color: var(--ifm-color-primary); font-weight: 700; letter-spacing: .04em; }
