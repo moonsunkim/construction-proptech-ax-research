@@ -103,6 +103,15 @@
   line-height: 1.5;
 }
 
+.research-note {
+  margin-top: 2rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
 .visual-spec {
   margin: 1.25rem 0;
   padding: 1rem 1.15rem;
