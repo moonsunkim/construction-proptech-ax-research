@@ -26,7 +26,7 @@ const config = {
     },
     footer: {
       style: 'dark',
-      links: [{title: '문서', items: [{label: '개요', to: '/docs/overview'}, {label: '종합', to: '/docs/comprehensive-report'}]}],
+      links: [{title: '문서', items: [{label: '개요', to: '/docs/overview'}, {label: '종합 분석', to: '/docs/comprehensive-report'}]}],
       copyright: `© ${new Date().getFullYear()} Moonsun Kim`,
     },
   },
