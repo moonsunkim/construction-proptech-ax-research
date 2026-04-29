@@ -1,5 +1,5 @@
 ---
-title: 0. Overview
+title: 개요
 id: overview
 slug: /overview
 ---
