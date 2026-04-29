@@ -1,5 +1,5 @@
 const config = {
-  title: '문선 김',
+  title: "문선 김's Wiki",
   tagline: '건설·프롭테크 AX 리서치',
   favicon: 'img/favicon.ico',
   url: 'https://moonsunkim.github.io',
@@ -18,11 +18,7 @@ const config = {
   ],
   themeConfig: {
     navbar: {
-      title: '문선 김',
-      logo: {
-        alt: 'Deltafleet',
-        src: 'img/deltafleet-logo.png',
-      },
+      title: "문선 김's Wiki",
       items: [
         {type: 'docSidebar', sidebarId: 'researchSidebar', position: 'left', label: '건설·프롭테크 AX 리서치'},
         {href: 'https://github.com/moonsunkim/construction-proptech-ax-research', label: 'GitHub', position: 'right'},
