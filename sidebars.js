@@ -2,13 +2,8 @@ const sidebars = {
   researchSidebar: [
     {
       type: 'category',
-      label: '종합',
-      collapsed: false,
-      items: ['comprehensive-report'],
-    },
-    {
-      type: 'category',
-      label: '상세 Deep Research',
+      label: '[종합] 건설·프롭테크 AX 시장 기회와 실행 전략',
+      link: {type: 'doc', id: 'comprehensive-report'},
       collapsed: false,
       items: [
         'global-enterprise-cases',
