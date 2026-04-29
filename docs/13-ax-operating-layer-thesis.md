@@ -1,271 +1,132 @@
 ---
-title: AX Operating Layer Thesis
+title: AX 운영 레이어 논리
 id: ax-operating-layer-thesis
 slug: /ax-operating-layer-thesis
 ---
 
-# AX Operating Layer Thesis
+# AX 운영 레이어 논리
 
-**Key Points:**
-*   **The Paradigm Shift:** The real estate and construction industries are transitioning from fragmented software tools to unified "PropOS" (Property Operating Systems) driven by agentic Artificial Intelligence (AI) and digital twins. 
-*   **Moat Evolution:** Raw data is rapidly becoming commoditized by foundation models. Sustainable competitive moats now rely on "workflow fortresses" and human-in-the-loop data manufacturing processes.
-*   **The Investment Wedge:** Successful platforms do not start as monolithic operating systems. They begin as highly specific point solutions that deliver immediate Return on Investment (ROI) by mediating physical assets or compliance risks before compounding into broader data layers.
-*   **The Korean Context:** Following a severe contraction in venture funding, the South Korean proptech and construction tech (ConTech) sectors are pivoting aggressively toward AI Transformation (AX) to address acute labor shortages, complex regulatory environments, and a systemic project financing crisis.
+*면책 고지: 본 문서는 시장·전략 분석을 위한 정보 제공 자료이며, 공식적인 금융·법률·전문 자문이 아닙니다.*
 
-The global built environment is experiencing a foundational shift in how technology is consumed and deployed. Historically reliant on disjointed point solutions—software designed to solve a single, isolated problem—the industry is increasingly demanding integrated platforms. This report synthesizes global and domestic evidence to chart the transition toward an overarching AI-driven operating layer in construction and real estate. By analyzing architectural roadmaps, evolving data moats, and investor activity, this analysis provides an institutional-grade thesis on how to identify, evaluate, and capitalize on the next generation of AX winners.
+## 핵심 요점
 
-*Disclaimer: This report is for informational and strategic investment analysis purposes only. It does not constitute formal financial, legal, or professional investment advice.*
+* **패러다임 전환:** 건설·부동산 소프트웨어는 단일 기능 도구에서 에이전틱 AI, 디지털 트윈, 공통 데이터 환경을 연결하는 운영 레이어로 이동하고 있다.
+* **해자의 변화:** 단순 원자료 보유만으로는 방어력이 약해지고 있다. 지속 가능한 해자는 현장의 핵심 워크플로, 규제 증빙, 결제·계약·안전·운영 데이터를 반복적으로 검증하는 과정에서 형성된다.
+* **진입 방식:** 성공적인 AX 플랫폼은 처음부터 거대한 운영체제로 팔리지 않는다. 견적, RFI, 안전, O&M, 에너지, 조달처럼 좁고 급한 문제를 해결한 뒤 인접 데이터를 연결하며 운영 레이어로 확장한다.
+* **한국 시장의 의미:** PF 위기, 인력난, 중대재해처벌법, BIM·ZEB 의무화, 대형 건설사 중심 생태계는 한국을 AX 운영 레이어가 빠르게 검증될 수 있는 고압 환경으로 만든다.
 
----
+건설·부동산 산업에서 AX의 장기 가치는 “AI 기능 하나”가 아니라 자산·현장·문서·비용·일정·운영 데이터를 연결하는 운영 레이어에 있다. 본 리서치는 글로벌 PropOS(Property Operating System) 흐름, Procore·Autodesk·AppFolio 같은 플랫폼 진화, 한국 PF·건설사 생태계의 압력을 종합해 포인트 솔루션이 어떻게 운영 레이어로 확장될 수 있는지 설명한다.
 
-## Executive Summary & Key Findings
+## 요약
 
-The construction and real estate sectors are standing on the precipice of their most significant technological transformation in decades. As artificial intelligence moves from analytical insights to agentic execution, the boundaries between software, data, and physical operations are dissolving. The emergence of the Property Operating System (PropOS) represents a reimagining of how assets are designed, built, and managed. 
+건설과 부동산은 수십 년 동안 프로젝트별·조직별로 흩어진 도구에 의존해 왔다. 견적은 별도 파일에 있고, 일정은 PM 도구에 있으며, RFI와 계약 증빙은 문서함에 있고, 현장 이미지는 별도 촬영 플랫폼에 쌓이며, 운영·에너지 데이터는 BMS와 FM 시스템에 갇혀 있다. 이 구조에서는 AI를 붙여도 한 업무를 조금 빠르게 만드는 데 그칠 가능성이 크다.
 
-To serve as a self-contained answers sheet for evaluating the AX Operating Layer thesis, the primary findings of this research report include:
+운영 레이어의 핵심은 이 흩어진 데이터를 하나의 의사결정 흐름으로 묶는 것이다. 예를 들어 설계 충돌이 공정 지연과 비용 증가로 이어지는 경로를 예측하고, 현장 사진이 BIM 모델과 얼마나 다른지 확인하며, RFI 문서가 클레임 리스크로 번질 가능성을 조기에 감지하고, 준공 이후 O&M·에너지 데이터까지 연결해 자산 운영 수익성을 개선하는 방식이다.
 
-1.  **Pathway to the Operating Layer:** The transition from point solution to operating layer requires a "Trojan Horse" Go-To-Market (GTM) sequence. Companies must first wedge into the market by solving a painful, localized problem (e.g., document Q&A or automated takeoffs) via a low-friction pilot, typically costing a $5,000 to $20,000 flat fee. Once embedded, they must expand horizontally by ingesting adjacent data streams before evolving into a unified orchestration engine capable of agentic execution. Legacy proptech was inherently reactive, requiring human initiation; the emerging PropOS layer utilizes AI agents capable of perceiving, learning, and executing autonomous workflows.
-2.  **Specific Compounding Data Moats:** While proprietary data was once considered the holy grail of tech investing, the democratization of Large Language Models (LLMs) has shifted the locus of value to workflow ownership. However, to build an unassailable data layer, startups must systematically aggregate nine critical asset classes: **Drawings** (spatial constraints), **Estimates** (financial constraints), **Schedules** (temporal sequencing), **Site images/videos** (visual truth), **RFI/change orders** (liability logs), **Safety near-misses** (risk vectors), **O&M logs** (lifecycle performance), **Energy data** (operational expenditure), and **Leasing/valuation data** (asset monetization).
-3.  **Historical Analogies as Blueprints:** The thesis is heavily supported by successful "layer cake" strategies in vertical SaaS and property software. **Veeva Systems** leveraged CRM as a wedge before layering on clinical operations to become a life-sciences OS. **Procore** began as a basic cloud collaboration tool before morphing into a system of record incorporating financial management and payments. **AppFolio** transitioned from standard SMB property management software into an AI-first platform featuring agentic workflow automation (Realm-X), demonstrating how embedded data compounds into an inescapable operational ecosystem.
-4.  **Architecture and Integration Solutions:** Success relies on breaking data silos maintained by legacy incumbents. Startups achieve this not by demanding users abandon standard files like `.rvt` or `.dwg`, but by utilizing open standards like Industry Foundation Classes (IFC) and Autodesk Platform Services (APS) APIs to seamlessly extract and harmonize data into a single source of truth without vendor lock-in.
-5.  **Korea's Crucible of Innovation:** Korean proptech venture funding dropped precipitously by approximately 90%—from 2.74 trillion KRW in 2021 to 247.7 billion KRW in 2023. This collapse was driven by a severe real estate Project Financing (PF) loan crisis characterized by developers holding less than 5% equity and relying on construction company guarantees amidst high interest rates. This macroeconomic pressure is forcing a "flight to quality," where surviving entities are deeply embedding AI to secure B2B enterprise contracts with major developers like Hyundai E&C and Hoban Construction.
+따라서 사업 관점에서 중요한 질문은 “어떤 AI 기능을 만들 것인가”가 아니라 “어떤 워크플로에서 시작하면 데이터 접근권과 반복 사용권을 얻고, 그것을 어떤 인접 업무로 확장할 수 있는가”다. 이 질문에 답할 때 AX는 일회성 자동화 도구가 아니라 건설·부동산 운영 체계의 일부가 된다.
 
-## Historical Analogies: Lessons from Vertical SaaS and Platforms
+## 포인트 솔루션에서 운영 레이어로 가는 경로
 
-The evolution from a niche application to an indispensable industry operating system is a proven path in vertical SaaS. By examining historical precedents, investors can identify the strategic maneuvers required to build a successful construction or proptech AX platform.
+| 단계 | 고객이 느끼는 가치 | 기술 스택 | 방어력 | 대표 예시 |
+| --- | --- | --- | --- | --- |
+| 1. 포인트 솔루션 | 특정 업무의 시간·비용·리스크를 빠르게 줄임 | 단일 앱, RAG, OCR, 컴퓨터 비전, PDF/CAD 파싱 | 낮음 — 기능 중복 가능 | 도면 물량산출, RFI 검색, 안전 비전, 하자 접수 자동화 |
+| 2. 통합 플랫폼 | 인접 업무 데이터를 연결해 프로젝트 단위 가시성을 제공 | 클라우드 DB, API, ERP/PMIS/BIM 연동, 권한 관리 | 중간 — 전환 비용 발생 | 공정·문서·비용·현장 사진 통합 대시보드 |
+| 3. AX 운영 레이어 | 사람의 요청을 기다리지 않고 리스크를 감지·추천·실행 | 에이전틱 AI, 디지털 트윈, 공통 데이터 모델, 감사 로그 | 높음 — 워크플로와 컴플라이언스에 내재화 | PropOS, Autodesk Forma, Procore AI/Marketplace, AppFolio Realm-X |
 
-*   **Veeva Systems (The "Layer Cake" Vertical SaaS Model):** Veeva exemplifies the vertical SaaS transition. It entered the life sciences market with a specific point solution—a cloud-based CRM for pharmaceutical sales representatives. After capturing over 50% market share with this wedge, Veeva executed a "layer cake" strategy, introducing Veeva Vault to handle clinical operations, regulatory compliance, and quality management. This transformed Veeva from a sales tool into the regulated infrastructure (operating system) for drug development, driving mid-teens growth and establishing an insurmountable moat against generic software.
-*   **Procore (From Cloud Collaboration to System of Record):** Founded in 2002, Procore began as a simple cloud-hosted point solution allowing fragmented construction teams to collaborate on documents without pen and paper. Over two decades, it systematically evolved into a comprehensive system of record by layering on modules for preconstruction, resource management, and financial management. More recently, Procore's transition to an operating layer is evidenced by its monetization of adjacent workflows, such as Procore Pay for lien and payment management, and its shift toward an AI-driven marketplace.
-*   **AppFolio (Property Management to AI-First PropOS):** AppFolio started in 2006 as accounting and leasing software targeted at SMB property managers. It aggressively expanded into enterprise accounts and integrated fintech (payments) to maximize Revenue Per Customer. In 2024–2025, AppFolio demonstrated the full operating system transition by introducing "Realm-X Performers"—agentic AI bots (e.g., Leasing Performer, Maintenance Performer) that do not just analyze data, but actively execute workflows like scheduling showings and diagnosing maintenance via photos. This embedded AI strategy reportedly saves property managers over 10 hours per week, proving that workflow automation is the ultimate retention tool.
+첫 단계에서는 작고 명확한 업무를 해결해야 한다. 현장과 본사는 “AI 전환”이라는 큰 개념보다 “입찰 견적 시간을 줄인다”, “RFI 답변 근거를 빨리 찾는다”, “위험 행동을 자동 감지한다”, “전기료를 줄인다”는 식의 구체적 성과에 반응한다. 이후 같은 고객 안에서 일정, 조달, 비용, 품질, O&M 데이터로 확장하면 플랫폼이 되고, 마지막으로 에이전트가 감지·판단·실행하는 구조가 만들어질 때 운영 레이어가 된다.
 
-## The Pathway from Point Solution to Operating Layer
+## 왜 단순 데이터보다 워크플로가 더 중요한가
 
-To understand the trajectory of construction and real estate software, one must trace the evolution from fragmented digitizations to unified intelligence. The pathway from a single point solution to a holistic operating layer requires mastering integration, user adoption, and agentic AI execution.
+생성형 AI 시대에는 “데이터를 많이 모았다”는 말만으로 충분하지 않다. 범용 모델은 공개 데이터와 일반 문서 처리 능력을 빠르게 평준화한다. 방어력은 특정 산업의 돈과 책임이 흐르는 워크플로를 장악할 때 생긴다.
 
-### The Limitations of Point Solutions
-A point solution is a specialized software application designed to address a single use case, such as scheduling, document management, or pdf markup. While highly precise and budget-friendly for pilot projects—typically requiring a flat fee of $5,000 to $20,000 to validate a specific workflow—point solutions invariably create isolated data silos across the project lifecycle. When a general contractor uses disparate tools for 3D modeling, procurement, and safety tracking, the lack of interoperability prevents portfolio-wide optimization. 
+건설·부동산에서 강한 워크플로는 다음 조건을 가진다.
 
-The industry is currently reaching a breaking point with "app fatigue." Construction executives and property managers are actively pivoting away from standalone innovation, recognizing that fragmented data severely limits productivity. Consequently, operators increasingly prioritize platform orchestration—the ability to unify fragmented systems—over the adoption of novel, isolated tools.
+| 조건 | 의미 | 예시 |
+| --- | --- | --- |
+| 돈과 직접 연결 | 오류가 곧 원가·공기·NOI 손실로 이어짐 | 견적, 공정, 조달, 에너지, PF 심사 |
+| 책임과 연결 | 법적·계약상 증빙이 필요함 | 중대재해, RFI, 설계변경, 하자, 보험 |
+| 현장 데이터와 연결 | 책상 위 문서만으로는 판단이 불가능함 | 360도 현장 기록, 드론, CCTV, IoT 센서 |
+| 반복 사용 | 한 번 쓰고 끝나는 도구가 아니라 매일 업무에 들어감 | 공무 문서, FM 티켓, 입주자 응대, 안전 점검 |
+| 검증 루프 | 사람이 결과를 확인하고 수정하며 데이터 품질이 개선됨 | 견적 검토, 계약 리스크 검토, 하자 판정 |
 
-### The Emergence of the "PropOS"
-Real estate is currently witnessing the emergence of the Property Operating System (PropOS), a virtual integration layer composed of AI agents, digital twins, and common data environments. Rather than engaging in the highly risky endeavor of completely replacing legacy systems, PropOS innovators use Application Programming Interfaces (APIs) to hover above existing platforms, harmonizing data into a single source of truth.
+이 조건을 만족하는 업무에서 시작하면 단순 기능을 넘어 데이터 제조(data manufacturing)가 가능해진다. 예컨대 Trunk Tools는 건설 문서 Q&A에서 사람 전문가(Human-in-the-loop)가 AI 결과를 검증하는 구조를 사용하고, Togal.ai 같은 물량산출 도구도 입찰 오류 리스크 때문에 인간 검토를 필수 안전장치로 둔다. 이 검증된 업무 데이터가 쌓이면 AI의 출력은 단순 답변이 아니라 감사 가능한 운영 데이터가 된다.
 
-The PropOS differs from traditional platforms by shifting from reactive mechanics to proactive autonomy. Instead of waiting for a user query, PropOS AI agents assign themselves tasks, monitor hardware via physics-based digital twins, and automatically flag operational deviations. Outcomes from early PropOS implementations (such as autonomous HVAC monitoring) claim energy cost savings of up to 30% and extended hardware lifespans, though such vendor-provided figures require long-term independent auditing to verify consistency.
+## 운영 레이어를 만드는 9대 데이터 자산
 
-*   **RAG (Retrieval-Augmented Generation):** *(Definition)* A critical architecture for PropOS, RAG grounds generic Large Language Models in a company's specific, proprietary external knowledge bases (like local building codes or past project contracts), thereby preventing the AI from hallucinating inaccurate answers.
-*   **RealEstateCore:** *(Definition)* An open-source, standardized ontology and data model designed to enable seamless data exchange across different smart building systems and IoT devices.
-*   **Agentic APIs:** *(Definition)* Highly specialized endpoints that allow third-party AI programs to autonomously read data, make a decision, and execute a multi-step workflow within a platform. *(Analogy)* If a traditional API provides a map, an Agentic API hands the AI the steering wheel. *(Relevance)* This is the technical mechanism that allows an operating system to perform actual physical or financial labor on behalf of the user, rather than just acting as a static dashboard.
+| 데이터 자산 | 왜 중요한가 | 확장 가능성 |
+| --- | --- | --- |
+| 도면·BIM | 공간 제약과 설계 의도의 기준점 | 견적, 공정, 품질 검측, 디지털 트윈 |
+| 내역·견적 | 비용과 마진의 기준점 | 입찰 자동화, 조달, 원가 예측 |
+| 공정표 | 시간 순서와 지연 리스크의 기준점 | 공정 최적화, 클레임 방어 |
+| 현장 이미지·영상 | 실제 시공 상태의 증거 | BIM 비교, 진척 검증, 품질·안전 관리 |
+| RFI·변경·클레임 | 책임과 분쟁의 기록 | 계약 리스크, 설계변경 증빙, 법무 자동화 |
+| 안전 near-miss | 사고 예방과 보험·규제 대응 데이터 | 안전 점수, 보험료 협상, 작업중지 예방 |
+| O&M 로그 | 준공 이후 자산 성능과 유지보수 기록 | 예지보전, SLA 관리, 자산 가치 개선 |
+| 에너지 데이터 | 운영비와 ESG 성과의 직접 변수 | HVAC 최적화, 탄소 리포팅, NOI 개선 |
+| 임대·가치·PF 데이터 | 자본시장 의사결정의 입력값 | AVM, 투자심사, 담보가치·공실 리스크 분석 |
 
-### Platform Comparison: Autodesk Forma vs. Procore
-The shift toward operating layers is heavily validated by the strategic maneuvers of legacy giants. For example, Autodesk has evolved its Construction Cloud into "Autodesk Forma," an AI-native industry cloud designed to connect planning, design, execution, and operations without disrupting existing file structures. Similarly, Procore, which traditionally served as a transactional system of record via basic APIs, is transitioning into a managed AI marketplace. Procore's introduction of "Agentic APIs" acknowledges that standard data pipes cannot support the heavy processing required by AI.
+이 9개 데이터는 각각 따로 있을 때보다 연결될 때 가치가 커진다. 도면과 견적이 연결되면 입찰 속도가 빨라지고, 도면·공정·현장 사진이 연결되면 지연과 재작업을 빨리 찾을 수 있으며, O&M·에너지·임대 데이터가 연결되면 자산 운영 수익성을 개선할 수 있다.
 
-| Feature | Autodesk Forma (Construction Cloud) | Procore |
-| :--- | :--- | :--- |
-| **Core Heritage & Focus** | Design, Engineering, and 3D Model Interoperability. | Project Management, Field Collaboration, and Financials. |
-| **API & Integration Strategy** | Leverages Autodesk Platform Services (APS - formerly Forge) allowing 400+ deep integrations via open APIs to connect models to workflows. | Emphasizes a massive App Marketplace, highly customizable core integrations, and expanding Agentic API endpoints. |
-| **Data Ingestion Strengths** | Unmatched handling of complex spatial data, clash detection, and proprietary file formats (.rvt, .dwg) natively within a Common Data Environment. | Superior handling of administrative, financial, and field documentation workflows (RFIs, Submittals, Payments). |
-| **User Experience & Adoption** | Extremely powerful but criticized for a steeper learning curve, requiring significant change management for field teams. | Consistently praised for an intuitive user interface, rapid onboarding wizards, and excellent field-level adoption. |
-| **OS Evolution Trajectory** | Moving from design modeling to lifecycle asset performance and operational digital twins. | Moving from project management into financial operations (Procore Pay) and owner-centric portfolio management. |
+## 글로벌 플랫폼에서 보는 진화 경로
 
-## Compounding Data Assets: Building the "Data Moat"
+| 사례 | 출발점 | 확장 경로 | 시사점 |
+| --- | --- | --- | --- |
+| Veeva Systems | 제약 영업 CRM | 임상·규제·품질 운영 인프라 | 버티컬 SaaS는 좁은 업무에서 시작해 산업 운영 인프라로 확장 가능 |
+| Procore | 건설 협업·문서 관리 | 재무, 결제, 마켓플레이스, AI API | 현장 협업 도구가 프로젝트 시스템 오브 레코드가 될 수 있음 |
+| AppFolio | 임대·회계 관리 | 결제, 운영 자동화, Realm-X AI 에이전트 | 자산 운영 데이터가 쌓이면 AI가 업무 실행까지 확장 가능 |
+| Autodesk Forma | 설계·BIM | 산업 클라우드, 디지털 트윈, 라이프사이클 운영 | 설계 데이터는 운영 데이터와 결합될 때 더 큰 가치가 생김 |
 
-A central question for investors is determining which data assets compound to form an unassailable competitive advantage. The thesis that "data is the new oil" requires significant nuance in the era of generative AI. 
+이 사례들의 공통점은 처음부터 “운영체제”를 판 것이 아니라, 특정 업무에서 반복 사용과 데이터 축적을 만든 뒤 인접 업무를 흡수했다는 점이다. 건설·프롭테크 AX도 동일한 순서를 따라야 한다.
 
-### Rethinking the Moat: The Workflow Fortress
-For years, the venture capital playbook dictated that startups should digitize a niche, collect proprietary data, and build a "data moat." However, AI foundation models have become so powerful that the competitive advantage derived purely from raw data is rapidly fleeting. Instead, durable defensibility relies on capturing the "workflow fortress."
+## 한국 시장에서의 의미
 
-A workflow becomes a fortress when it mediates the flow of physical atoms (e.g., logistics, physical asset access) or mediates the flow of compliance and financial risk. If a platform becomes the legally mandated audit trail for a multi-million-dollar commercial build, switching costs become prohibitively high due to corporate liability and integration complexity. The software that ultimately wins is the software that sits on money and compliance, not just data.
+한국은 운영 레이어 논리가 특히 강하게 작동할 수 있는 시장이다. 첫째, PF와 공사비 압력으로 인해 시행사·시공사·금융권 모두 더 정밀한 사업성·원가·리스크 판단을 요구받고 있다. 둘째, 중대재해처벌법과 안전관리 책임 강화는 안전 데이터와 증빙 기록의 가치를 높인다. 셋째, BIM·ZEB 의무화는 설계·에너지·운영 데이터의 디지털화를 촉진한다. 넷째, 대형 건설사 중심 구조는 초기 레퍼런스 확보 후 확장 속도를 높일 수 있다.
 
-### The Data Manufacturing Process and Redundant Validation
-While pure raw data is easily commoditized, the *transformation* of data—often termed "data manufacturing"—remains a formidable moat. Startups secure this moat by ensuring high fidelity in complex edge cases where generic LLMs fail. In the construction technology sector, simple AI algorithms are inherently fragile. To build anti-fragile moats, platforms are adopting Multi-Agent AI Cross-Validation paired with Human-in-the-Loop (HITL) verification. 
+한국형 AX 운영 레이어는 글로벌 플랫폼을 그대로 가져오는 방식만으로는 어렵다. 국내 공무 문서, 하도급 구조, 안전 규정, 세금계산서·정산 관행, PF 심사 방식, 한국어 계약·현장 문서가 모두 로컬 맥락을 갖기 때문이다. 이 로컬 골드 데이터는 글로벌 범용 모델이 쉽게 모방하기 어렵고, 국내 팀이 차별화할 수 있는 지점이다.
 
-**Illustrative Case Study (Trunk Tools & Togal.ai):**
-The necessity of HITL architecture is perfectly illustrated by Trunk Tools, an AI platform utilized by Fortune 500 builders to parse unstructured construction documentation. Trunk Tools deploys AI agents for document Q&A to resolve submittals and RFIs, but actively employs dedicated "Construction Subject Matter Experts (SMEs)" as human-in-the-loop operators. These experts review project-specific AI outputs, correct model mistakes, and mine data for insights, ensuring the AI agent outputs are legally and operationally safe before returning them to the client. Similarly, in the estimating sector, tools like Togal.ai automate material takeoffs using computer vision; however, because of the immense financial risk of bidding errors, human review remains a mandatory fail-safe to validate the AI's predictions. This process turns AI probability into "auditable, procurement-grade data," deepening the system's intelligence with every verified transaction.
+## 사업화 관점에서의 결론
 
-### Deep Dive: The Specific Data Assets That Compound
-Within a true PropOS or construction operating layer, specific data classes compound to create an insurmountable advantage when unified. A successful AX platform must selectively conquer and connect the following nine critical data assets:
-1.  **Drawings (Spatial Data):** 2D floor plans and 3D BIM models (.rvt, .dwg) are the foundational truth of physical constraints. Connecting generative AI to spatial limits drastically reduces feasibility study timelines.
-2.  **Estimates (Financial Data):** Historical pricing, material quantities, and unit costs. AI tools (e.g., Togal.ai) compounding this data accelerate bidding and improve margin predictability.
-3.  **Schedules (Temporal Data):** 4D sequencing metadata tracks the critical path. AI analysis here predicts logistical bottlenecks before they halt physical construction.
-4.  **Site Images/Videos (Reality Capture):** Continuous drone flights (e.g., Angelswing) and 360-camera footage serve as unalterable proof of progress and ground-truth validation against the BIM model.
-5.  **RFI/Change Orders/Claims (Liability Data):** The contractual friction log. Extracting insights from these unstructured documents (e.g., via Trunk Tools) provides early warning signs for budget overruns and litigation.
-6.  **Safety Near-Misses (Risk Data):** Computer vision tracking unharnessed workers or unsafe equipment routing compounds to lower insurance premiums and prevent fatal site stoppages.
-7.  **O&M Logs (Lifecycle Data):** Warranty manuals, equipment lifespans, and repair histories. This data transitions the value from construction handover to the decades-long facility management phase.
-8.  **Energy Data (Operational Expenditure Data):** Real-time HVAC loads and IoT sensor readings. PropOS agents require this stream to autonomously optimize building performance and meet strict ESG mandates.
-9.  **Leasing/Valuation/PF Data (Capital Markets Data):** Rent rolls, tenant inquiries, and Project Financing terms. Platforms like AppFolio compound this data to automate marketing and influence real-time asset appraisals.
+이 리서치가 말하는 결론은 특정 투자 결정을 내리자는 것이 아니다. 더 포괄적으로 보면, 건설·프롭테크 AX는 “뛰어들어볼 이유가 있는가”라는 질문에 대해 꽤 강한 근거를 제공한다. 이유는 세 가지다.
 
-### Breaking the Data Silos: Overcoming Proprietary File Formats
-A logical challenge arises: how does a startup integrate 2D drawings and 3D BIM models when legacy vendors tightly guard proprietary file formats like Autodesk’s `.rvt` and `.dwg`? Startups bypass these bottlenecks using three primary strategies:
-*   **Open Standards Integration:** Startups increasingly utilize Industry Foundation Classes (IFC), an open, vendor-neutral file format that allows spatial models to be extracted and manipulated outside of the native software.
-*   **Official API Pathways:** Rather than building independent rendering engines, platforms utilize tools like Autodesk Platform Services (APS - formerly Forge), which provides cloud-based APIs to extract data, convert 70+ file formats, and view models natively within a third-party application.
-*   **Data Parsing Scripts:** Innovators use specialized conversion pipelines (e.g., DataDrivenConstruction scripts or n8n workflows) to automate the extraction of geometry and metadata from `.rvt` and `.ifc` files directly into accessible formats like Excel, JSON, or SQL databases, completely eliminating vendor lock-in and feeding the data directly to LLMs.
+1. **문제가 이미 예산을 갖고 있다.** 안전, 견적, 공무, O&M, 에너지, PF 리스크는 새로운 혁신 예산을 만들어야 하는 영역이 아니라 기존 비용과 손실이 존재하는 영역이다.
+2. **작게 시작할 수 있다.** 처음부터 거대한 플랫폼을 만들 필요가 없다. 하나의 현장, 하나의 문서군, 하나의 자산, 하나의 예산 항목에서 시작해 효과를 증명할 수 있다.
+3. **성공하면 확장 경로가 있다.** 초기 wedge가 데이터 접근권을 만들고, 데이터가 인접 workflow 확장을 만들며, 최종적으로 운영 레이어로 갈 수 있다.
 
-## Architecture, Product Roadmap, and GTM Sequence
+따라서 제품·포지셔닝·시장 진입 전략의 핵심은 “AI를 잘한다”가 아니라 “건설·부동산의 어떤 반복 업무와 책임 흐름을 장악할 것인가”다.
 
-To build a credible operating layer, startups cannot attempt to boil the ocean. The architecture and Go-To-Market (GTM) sequence must follow a disciplined, phased approach, progressing from a specific workflow intervention to a comprehensive ecosystem.
+## 피해야 할 결론
 
-### Phase 1: The Wedge (High ROI Point Solution)
-*   **Objective:** Infiltrate the enterprise via a low-friction entry point that offers immediate, measurable ROI.
-*   **Workflow Owner Target:** Front-line managers experiencing acute pain points (e.g., BIM Managers wrestling with clash detection, Estimators doing manual takeoffs, or Superintendents managing RFIs).
-*   **Budgets:** Typical SaaS pilot phases range from a $5,000 to $20,000 flat fee, or $1,500–$5,000 per month for early testing to validate metrics.
-*   **Implementation Constraints:** Must require zero behavior change from external subcontractors. The tool must operate on existing messy data (e.g., reading fragmented PDFs) rather than demanding clean, structured inputs.
-*   **Example:** Fixo AI wedged into facility management by offering a specific AI diagnostic tool that clarifies work orders, reportedly accelerating repairs by 80% without overhauling the core property management system.
+* 단일 승자가 모든 건설·부동산 운영을 장악하는 하나의 PropOS가 곧바로 등장한다고 단정해서는 안 된다. 현실 세계의 프로젝트와 자산은 너무 복잡하고, 여러 특화 시스템의 조율이 더 현실적이다.
+* 현장 채택이 자동으로 일어난다고 가정해서는 안 된다. AX는 인간을 대체하기보다 현장·공무·FM 담당자의 판단을 보강하는 방식으로 들어가야 한다.
+* 벤더의 ROI 수치를 그대로 믿어서는 안 된다. 에너지 30% 절감, 설계 시간 대폭 단축 같은 주장은 실제 데이터 품질, 하드웨어 상태, 운영 관행에 따라 크게 달라질 수 있다.
 
-### Phase 2: Horizontal Data Integration
-*   **Objective:** Expand from a single feature into a multi-workflow platform by ingesting adjacent data streams (linking Phase 1's design tool to schedule and procurement data).
-*   **Workflow Owner Target:** Project Managers, VPs of Construction, and Regional Operations Directors.
-*   **Budgets:** Custom SaaS scaling and mid-market growth typically require $60,000 to $150,000 in development and implementation costs.
-*   **Implementation Constraints:** This phase requires robust API integrations with incumbent ERPs (like Oracle or Trimble) and the adoption of open standards (like RealEstateCore or IFC) to prevent silo creation. High development costs are incurred through data mapping and establishing secure cloud infrastructure.
+## 미해결 질문
 
-### Phase 3: The Agentic Operating Layer
-*   **Objective:** Transcend human-initiated software to become an autonomous orchestration engine that acts as the system of record and system of action.
-*   **Workflow Owner Target:** The C-Suite (CEOs, CFOs, Asset Owners), serving as the foundational compliance and reporting infrastructure.
-*   **Budgets:** Enterprise-grade platform rollouts range from $150,000 to $500,000+, heavily driven by multi-tenant architecture, SLA-backed uptime, and SOC 2/GDPR compliance requirements. Maintenance adds a recurring 15–20% annually.
-*   **Implementation Constraints:** The platform must deploy Agentic APIs to correlate early-stage design clashes with downstream energy expenditures and automatically trigger supply chain payments. The primary constraint shifts from technical capability to managing human trust and establishing liability frameworks for AI-driven decisions.
+* 운영 레이어의 표준은 RealEstateCore·IFC 같은 개방형 표준으로 갈 것인가, 아니면 Autodesk·Procore 같은 대형 플랫폼의 API 생태계로 잠길 것인가?
+* AI 에이전트가 유지보수 부품을 주문하거나 구조 리스크를 경고했을 때 오류 책임은 소프트웨어, 하드웨어, 시공사, 운영사 중 누구에게 귀속되는가?
+* 한국의 로컬 데이터와 대기업 네트워크를 기반으로 한 AX 모델은 미국·유럽·중동·동남아 시장으로 확장 가능한가?
 
-## Investor Synthesis: How This Strengthens the Overall Thesis
+## 근거 테이블
 
-When evaluating the AX (AI Transformation) thesis across our eight established research lanes (global/domestic cases, ROI proofs, money maps, GTM strategies, etc.), the transition from point solutions to an operating layer acts as the unifying capstone. 
-
-The core investor thesis is this: **Value in commercial real estate is migrating from the physical asset itself to the operating platform that manages it**. 
-
-For the past decade, real estate underwriting was largely a financial exercise—toggling discount rates and capitalizing on cheap debt. Today, evolving tenant demands and stringent ESG mandates are forcing real estate to behave like an operating business rather than a static financial instrument. Consequently, capital is actively seeking platforms that control the operational ecosystem. In October 2025 alone, proptech entities raised $2.9 billion globally, with a massive concentration of capital flowing toward "owner operating infrastructure" that controls cash flows, and AI products demonstrating single-project payback. 
-
-This validates our prior research on the *Proptech Money Map* and *Workflow Opportunity Map*: investors are no longer funding "nice-to-have" consumer apps. They are heavily underwriting platforms that merge customer acquisition, physical installation, and financial compliance into a single operational layer, thereby improving unit economics and unlocking cheaper institutional debt. Backing an AX startup today means underwriting a company's ability to act as the essential connective tissue between capital markets, asset management, and physical labor.
-
-## Korea Implications: Why Korea, Why Now?
-
-The South Korean market presents a unique, high-pressure crucible that accelerates the necessity of the AX operating layer. 
-
-### The Survival Imperative Following the PF Capital Crunch
-The domestic proptech industry is undergoing a severe identity crisis. Following a peak of 2.74 trillion KRW in investments in 2021, funding collapsed by roughly 90% to 247.7 billion KRW by 2023. 
-
-This collapse is directly tied to South Korea's severe real estate Project Financing (PF) loan crisis. Unlike advanced economies where developers typically inject 30–40% equity into a project, Korean developers routinely invest less than 5% equity, financing the remainder through debt heavily reliant on guarantees from major construction companies and real estate trusts. When aggressive rate hikes, inflated raw material prices, and sluggish presales collided, the market buckled. Non-bank financial institutions (NBFIs), particularly savings banks, saw non-performing loan (NPL) ratios surge to 11.5% by mid-2024, resulting in massive sector-wide losses (e.g., the trust sector recording a 515.7 billion won loss) and a wave of builder bankruptcies.
-
-This harsh environment has stripped away speculative consumer apps. The Korea Proptech Forum has explicitly declared a pivot toward AI capabilities, emphasizing that survival depends on demonstrating concrete B2B workflow integrations that mitigate financial risk and reduce reliance on expensive physical labor.
-
-### Chaebol-Led Open Innovation
-Unlike highly fragmented Western markets, Korea’s construction sector is heavily consolidated around major conglomerates (Chaebols). This structure allows for rapid scaling if a startup secures the right partnership. Domestic platforms are currently validating their technologies through strategic investments from these giants. 
-
-For instance, Ten Eleven secured investments from Hyundai E&C and Hoban Construction to integrate their AI auto-design software directly into the conglomerates' proprietary housing brands (The H, Hillstate). Similarly, Sankun's Series A was led by Hyundai Investment Partners, cementing its status as the procurement backbone for top-tier Korean contractors by processing over 10 million project records across 800,000 sites.
-
-### Data Localization and "Gold Data"
-While global LLMs dominate general intelligence, construction and real estate are highly localized domains. Building codes, regional subcontractor networks, and localized spatial data cannot be easily scraped from the open internet. Korean startups possess an inherent geographic moat by accumulating domestic "gold data". This local domain data, combined with Korea’s highly advanced IT infrastructure and public data initiatives, makes Korea an ideal testbed for robust PropOS platforms before exporting the technology to broader APAC or Middle Eastern markets. 
-
-## What Not to Conclude
-
-While the operating layer thesis is highly compelling, investors and operators must avoid several analytical pitfalls:
-
-1.  **Do not conclude that a single "winner-take-all" PropOS will emerge.** Success in this space will not come from building "one ring to rule them all." The physical world is too complex. Success will depend on orchestrating multiple specialized systems through open APIs rather than forcing a monolithic software suite onto operators.
-2.  **Do not assume seamless human adoption.** The human element remains the greatest bottleneck. Traditional property managers struggle to leverage AI insights, and residents frequently resist automated systems despite objectively superior outcomes. The best platforms will augment, rather than abruptly replace, human operators.
-3.  **Do not mistake vendor marketing for verified ROI.** While vendors claim massive reductions in energy costs (up to 30%) and design time (from 5 days to 1 hour), these are controlled, best-case scenarios. Real-world deployments face severe data fragmentation and varying hardware quality, diluting theoretical ROI.
-
-## Open Questions
-
-To further refine this investment thesis, several critical variables remain unresolved:
-*   **Interoperability Standards:** Will the industry coalesce around an open-source standard like RealEstateCore, or will giants like Autodesk and Procore force proprietary API ecosystems?
-*   **Liability in Agentic Execution:** When an AI agent autonomously predicts a structural failure or orders a maintenance part that ultimately causes project delays or damage, who holds the legal and financial liability—the software vendor, the hardware manufacturer, or the general contractor?
-*   **Global Exportability of Korean AX:** Can Korean startups, whose data moats are deeply tied to domestic regulations and Chaebol networks, successfully localize their AI models for the US or European markets? 
-
-## Evidence Table
-
-| Claim | Source URL | Source Type | Geography | Confidence | Implication |
+| 주장 | 출처 URL | 출처 유형 | 지역 | 신뢰도 | 시사점 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Emergence of autonomous "PropOS" replacing reactive proptech | [https://www.pwc.com/us/en/industries/financial-services/asset-wealth-management/real-estate/emerging-trends-in-real-estate-pwc-uli/trends/proptech-to-propos.html](https://www.pwc.com/us/en/industries/financial-services/asset-wealth-management/real-estate/emerging-trends-in-real-estate-pwc-uli/trends/proptech-to-propos.html) | Reputable Industry Report (PwC/ULI) | Global | High | Real estate technology is shifting from point tools to holistic AI-driven operating layers. |
-| Workflow ownership and compliance mediation supersede raw data moats | [https://www.vendep.com/post/forget-the-data-moat-the-workflow-is-your-fortress-in-vertical-saas](https://www.vendep.com/post/forget-the-data-moat-the-workflow-is-your-fortress-in-vertical-saas) | Investor Thesis (VC Blog) | Global | Medium-High | Pure AI startups face commoditization; investments must target startups that embed deeply into physical/financial operations. |
-| SaaS development budgets range from $5k pilots to $500k+ enterprise OS | [https://ssntpl.com/saas-development-cost/](https://ssntpl.com/saas-development-cost/) | Industry Software Pricing Data | Global | High | Transitioning to an OS requires immense capital; initial wedges must be cheap to test but highly monetizable at scale. |
-| Sankun processes 10M+ records across 800K sites for 98 of top 100 builders | [https://wowtale.net/2025/12/30/252553/](https://wowtale.net/2025/12/30/252553/) | Tech Media (Korea) | South Korea | High | Korean procurement is actively shifting from human networks to an AI-driven data layer. |
-| Angelswing automates digital twins and AI safety monitoring in 500+ sites | [https://zdnet.co.kr/view/?no=20251119150538](https://zdnet.co.kr/view/?no=20251119150538) | Major Media (ZDNet Korea) | South Korea | High | High-fidelity spatial data and automated visual capture act as the foundational layer for site execution OS. |
-| Korean Proptech funding plummeted 90% due to the PF Loan Crisis | [https://www.unicornfactory.co.kr/article/2025091417090523615](https://www.unicornfactory.co.kr/article/2025091417090523615) | Media / Industry Data | South Korea | High | The market is undergoing a harsh consolidation; only high-ROI, enterprise-grade AI tools mitigating risk will attract capital. |
-| Autodesk and Procore are shifting to AI industry clouds and Agentic APIs | [https://adsknews.autodesk.com/en/news/autodesk-construction-cloud-is-now-autodesk-forma/](https://adsknews.autodesk.com/en/news/autodesk-construction-cloud-is-now-autodesk-forma/) | Vendor Press Releases | Global | Medium | Legacy incumbents are actively defending their market share by evolving into intelligent AI orchestration platforms. |
-| AppFolio Realm-X agentic deployment saves 10+ hours per week | [https://www.zenml.io/llmops-database/building-a-property-management-ai-copilot](https://www.zenml.io/llmops-database/building-a-property-management-ai-copilot) | Technical Case Study | Global | Medium | Integrating AI deeply into a workflow system of record produces verifiable operator savings. |
+| 반응형 프롭테크에서 자율형 PropOS로 이동 | [PwC/ULI Emerging Trends](https://www.pwc.com/us/en/industries/financial-services/asset-wealth-management/real-estate/emerging-trends-in-real-estate-pwc-uli/trends/proptech-to-propos.html) | 산업 보고서 | 글로벌 | 높음 | 부동산 기술은 포인트 도구에서 AI 운영 레이어로 이동 중 |
+| 단순 데이터 해자보다 워크플로 장악이 중요 | [Vendep — Workflow Fortress](https://www.vendep.com/post/forget-the-data-moat-the-workflow-is-your-fortress-in-vertical-saas) | VC/전략 글 | 글로벌 | 중상 | 돈과 컴플라이언스가 흐르는 업무에 깊게 들어간 기업이 방어력 확보 |
+| SaaS 개발·도입 비용은 파일럿에서 엔터프라이즈까지 크게 확장 | [SSN Tech — SaaS Development Cost](https://ssntpl.com/saas-development-cost/) | 소프트웨어 비용 데이터 | 글로벌 | 높음 | 초기 wedge는 가볍게, 운영 레이어 확장은 자본·신뢰·보안 요건 필요 |
+| 산군은 80만 현장·1천만+ 프로젝트 기록 기반 조달 데이터 레이어를 구축 | [Wowtale](https://wowtale.net/2025/12/30/252553/) | 테크 미디어 | 한국 | 높음 | 한국 조달 업무도 관계망에서 데이터 기반 레이어로 이동 중 |
+| 엔젤스윙은 500+ 현장에서 디지털 트윈·AI 안전 관제를 확장 | [ZDNet Korea](https://zdnet.co.kr/view/?no=20251119150538) | 주요 미디어 | 한국 | 높음 | 공간·현장 시각 데이터가 현장 운영 레이어의 기반이 될 수 있음 |
+| 한국 프롭테크 투자 급감과 PF 위기는 고ROI B2B AX 도구의 필요성을 높임 | [Unicorn Factory](https://www.unicornfactory.co.kr/article/2025091417090523615) | 산업/미디어 데이터 | 한국 | 높음 | 소비자 앱보다 리스크와 비용을 줄이는 엔터프라이즈 도구가 생존 가능 |
+| Autodesk와 Procore는 AI 산업 클라우드와 에이전틱 API로 이동 중 | [Autodesk News](https://adsknews.autodesk.com/en/news/autodesk-construction-cloud-is-now-autodesk-forma/) | 벤더 발표 | 글로벌 | 중간 | 기존 강자도 운영 레이어 방어를 위해 AI 오케스트레이션으로 진화 |
+| AppFolio Realm-X는 자산관리 업무에서 AI 에이전트형 자동화를 보여줌 | [ZenML Case Study](https://www.zenml.io/llmops-database/building-a-property-management-ai-copilot) | 기술 사례 | 글로벌 | 중간 | 업무 시스템 안에 깊게 들어간 AI는 운영자 시간을 직접 절감 가능 |
 
-## Recommended Docusaurus Artifact
-
-**Suggested Artifact Title:** `AX Platform Evolution & Data Moat Architecture`
-**Wiki Placement:** `Section 3: Market Maps & Investment Theses > 3.2 The AX Operating Layer`
-
-**Visual 1: The Pathway to PropOS (Table)**
-*Columns:* Stage, Paradigm, Technology Stack, Defensibility, Budgets, Example
-*Row 1:* Point Solution -> Reactive -> Standalone App / File-based -> Low (Feature overlap) -> $5k-$20k Pilot -> PDF Markup, Single-use Scheduling
-*Row 2:* Integrated Platform -> Connected -> Cloud / Basic APIs -> Medium (Switching costs) -> $60k-$150k Custom Build -> Traditional ERPs
-*Row 3:* PropOS / AX Layer -> Autonomous / Predictive -> Agentic AI / Digital Twins -> High (Workflow & Compliance lock-in) -> $150k-$500k+ Enterprise -> Autodesk Forma, ProptechOS
-
----
-
-## Korean-Ready Insert Blocks
-
-**[핵심 요약: 포인트 솔루션에서 AX 운영 체제(PropOS)로의 진화]**
-건설 및 프롭테크 시장의 가치는 개별 소프트웨어(포인트 솔루션)에서 자산과 데이터를 통합 관리하는 '운영 체제(PropOS)'로 빠르게 이동하고 있습니다. 과거의 기술이 인간의 입력을 기다리는 '반응형'이었다면, 다가오는 AX(AI 전환) 플랫폼은 디지털 트윈과 에이전틱 AI(Agentic AI)를 통해 스스로 문제를 진단하고 워크플로우를 실행하는 '자율형' 시스템입니다. 초기 도입 비용(Pilot)이 5,000~20,000달러 수준인 포인트 솔루션으로 현장의 고통을 해결한 후, 이를 바탕으로 통합 OS(Enterprise)로 확장하는 전략이 필수적입니다.
-
-**[투자 관점: 데이터 해자의 종말과 워크플로우 장악]**
-거대 언어 모델(LLM)의 보편화로 인해 단순한 '데이터 축적'만으로는 더 이상 강력한 경쟁 우위(해자)를 구축하기 어렵습니다. 진정한 해자는 실물 자산의 이동과 법적/재무적 규제 준수(Compliance) 과정을 통제하는 '워크플로우 장악(Workflow Fortress)'에서 나옵니다. 성공하는 기업은 도면, 내역서, 공정표, RFI(사전질의), 현장 이미지, 안전 데이터 등 핵심 9대 데이터 자산을 융합하며, Trunk Tools와 같이 전문가(Human-in-the-loop)의 검증을 거쳐 환각 없는 완벽한 데이터를 구축합니다. 
-
-**[한국 시장의 시사점 및 기회 (PF 위기와 생존)]**
-국내 프롭테크 투자는 2021년 고점 이후 무려 90% 급감하며 심각한 옥석 가리기가 진행 중입니다. 이는 개발사가 5% 미만의 자본금으로 시작하여 시공사의 보증에 의존하는 한국 특유의 부동산 PF 위기와 고금리에 기인합니다. 살아남은 기업들(예: 데이터 기반 조달의 '산군', AI 건축 설계의 '텐일레븐', 디지털 트윈 관제의 '엔젤스윙')은 B2B 엔터프라이즈의 핵심 워크플로우에 깊숙이 침투하여 대형 건설사(현대건설, 호반건설 등)와 전략적 협업을 이끌어내고 있습니다. 한국 고유의 복잡한 건축 법규와 강력한 하도급 네트워크 데이터는 글로벌 LLM이 쉽게 모방할 수 없는 '로컬 골드 데이터'로서 작용하며, 이는 국내 AX 플랫폼의 강력한 무기가 될 것입니다.
-
----
-
-**Sources:**
-1. [pwc.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlyJNPWh0KxFBPvbklTxBjqVDDIQcAJ3ya9e7cn7E-U3HLFjPaOjHNAi88oUWnEV87OdQ-ZXcqrMDMbtlNId_bZNc6CCKss4Nq1PTmuX4fvt7eVRkRFMh8A52DUUeOvf1l_uqj6L3pN2QyxDkAe2E9y8CV1sAvu9MAJN4G583gB0ort_8p2VH67S-47zNMQdpMPg2GKIQoPUc3Iy5KK2lOk8N4VCVMdeZb8lAX5i1p2tYOxNfCfFKFKDgAZRPi1hg7wJXnjkKbpw-aoReN7Kjq3Qz_KmJrqZQ=)
-2. [hdec.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH74xE0efbjOlY7xf7aMU2K_1k7GXGoX9WoAsKZw_mSjP5HKZclaNZL98f2X5Eh2-MME2bneF6h0bYC5YL8PYOXcP92mHMYwnVQ9n_UMi3JDxedMNzO9ruchZyP0J6xRofgZ5nif_dYwN4EtX9jVyNlNSPOpibQe3Y1L8-xEBdmuF-6jhIJC7U12VdaWhM_Ejypt9CFFLpZ)
-3. [autodesk.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIzjVXePNsfoxP-BWu--3VIwDMT6TS5G0QRL3B_A_ZtvraPkGOUkmrdhlygcMtD2C2B9FOS0VfERQ2kT2XfqjvP_ELBSEt5yRtMXN125wak2WKif9c10vZLtKG2SZkCIrw3W-A9loJ7v7BUd-WuZ7o1KOesbqUVr_frxn6OPZ1380SwtnzTKCHQ3i-dofK)
-4. [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF3h-RPXcyak9Gn1c3_CgRlV39IuPRxIIg4JNZlc9OzQRGWskDMDUOKdFCeiHmcpYMptR3VIE5HvssTC3JJuWVdkGIy9bS4R374k_xMXVvYOKn-XGTX5Sp8m-1FOk8kwirq95czQi0EODIOYpB5soK7ANnIHOfazPcxepix4AzjE5T7Uuik4-RkffRe7SeRZ_PZWYE)
-5. [cotality.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpRPWNDvu4vZL6Io-JLWbVz2sKKfKdJrqfTod-_zgb9lYA1gLfGlHg9HNyFNcbiZgllGJmCWi3XafPdsIOI-fJALpqIEAFDcSFSeZC9BUOsxr6_YVsqaHp4LrTz7zfcabb2lI1R2XxzpKGTJfTlPQelwAN1HCRO1IMs55F0FvMpQ==)
-6. [vendep.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_LVgfEBwFNHZKb3W3bguvaZDg8u75f3osIgiaAte-qYjeRBhQTVe8DGlU4BtHot2KedPaTiBUGMOvBwukV0SJdvDpb9Ee_mEA2tmSc3vMvrjjGfOOO5BpodS2Irq95du4rZn78fLqReZFf7qCpg8r3u8Ke58oucSq177ZFKnRRrUakh9py_mi6KHa5u6UvPJO6_7Sdw==)
-7. [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRoxam1g-sJZH9pbwppMbF0oKXXHdiRFvIYTYBZWWL6BySdiKPDkNRfQwAFEraX-wIQcKhnZFIUuSNiu0sLvT4L5uj5URbn0BXY40grArTYjTm78BpvBUDENJ2wMIZt3x8)
-8. [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG01a9sFaGiICCARiY4lUA6rUy4B8oOEO_U8IZETboWNGZvP0HxAHHiKzs0WMJ_pMY8ymccWP_NPleAm7JS90jBlADN6KABAG-QQJJmyhWtiIG3Pa6dIibALfcFDuD99qmk8KOCc5d2Pzko-jUmF_8-FieeOHJwu5oULWd5BC2jxLdJWw4bzFqjhleHtiq7oQd3pqlDhcRycF7LLw223xJLFjFeTpJQV5gMvuisiPsxPt40gT9zyd1O5ewDXYDfXpg=)
-9. [zenml.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbmRXGLtWlJDn9A08LTS4XPzzuRx6s9p9ULW_YdiOnAKeGF_0Vrkpfwr9b7KePC0BAuF9VDn63nOgiX79RiMG4186xcHKdm6ev4BJXhnMtn6B9JKRd4lJx9n2OE5HkTW9iHlEnvUg6s0e6qQM9hwAgOH5xXpMSzmTy_KRdxtGAtqbQYtFqxQZmhMgQUe__C4JKOQbwDr-NjFDiSny0a18z5g==)
-10. [aecmag.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlA58qtzIFu974ZupzsIQ70tuWlaTxYpnW9_l_0RKIHbV2X7DLjoE15CVD2Pv4QQLTBay7z7Q1CNx4VvcdVGh9Z9wh6mKhHVIFE6pxAfcBV2DJ2d7j2BZFmQ3-8NvFPXMKK-qqc7iR6IfmbA==)
-11. [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8nGKaU9ripBY8h5HAVPB4M1NP2M2z_m-KE4imMGWuBFEkKbysMhgjc2LHskGppVLsq3iSL_uatdKK3uqq6t_Z03T-zzAWquq0coyMe7v8xw_MSaVpG8AqHh7Htxjz37BnFnKVCQun1PHfS3sJZQRPae7HuBTaz4DgbcCC7CZfIB73r30uNB84eD5MZr6d4fcboCPg269FnqzsvI-A9wEnfGX4_jqBQwf3Qslh5asSk7WDxESp5Zb__k6sKg==)
-12. [bvp.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXySZD1HKWFuLCCPDWYt4x8Kl_PEGc1M5RZzj2Bhnp6kNIk7YJSYnpNgPaRoZkFWG1UJGeIvkV45MSJZBhV0Es1LLBjVa91ytVR-og6AQiVyzWrZDSOpTQ_XEmUNYVxxfUXF9uq6SStCww7QM89GochhVXQ43yP6bJ0pc1ZPSqrUelRKkH6xNN)
-13. [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTBmgHt32DyDMS9rjd6uu_tkGB5mapl2W6soKbIb3IaH1SXtVFvnipEBGlNG0oHsEfyqUkxXMMKjVFgI3VEiV0ufJRPg7p3_Rqo8_OCRFHwkgmIRIQE9MS-3Ih68vOUe8LQ4He5EPV4Jzzi83JdHSCERpcmod1p75w5rgS-yqT65WdLiXNqAsvRQhejLaZOjhyvO3-GZqf)
-14. [portersfiveforce.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1zoHcE1H2Hbh6c_uugWhRdEFnlsKcpt2h0OD8ha4Sf6B6XWmHjhboKom7U2yTqeN88TWOkA0R6dlpawsZ0Zh0KlLlSkz8g5R_qDyXnxUt-tdWOxbLykYix5O9slcKo6wQu2GPqt3McGpl018=)
-15. [miracuves.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIz1O4r2kOIqcS0siDzlp5WXJYZKHq2qi5eApqWPl8zYh0qHAMpiuVYhLwqW_Q-dgpvKKtVzLSjhLXtgTABWeUvWjq30fam3McOg90uAE_uIbvkFkgJIIBq6oIHoguDRjfGMq9wpFV2PGMhaY=)
-16. [seekingalpha.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCM0HWZRSxC3Zsh3dLaOGDil3Ikuf3Wd-JCL4guIpTHDYdssQwo47GOQbAgbCXX_D3EjFnq8Dg_mHjhej8pBAFIMq8ayfZ_uPR8Cr8GWmpPzAbO4sIlI0f5qH_Jco09iBaw28TDpzpAPunR5xmisXp_El7D0NVc0flAAspnHs7dvYkpptDwJInU2E82zcJJz8OWzZxKlNMj0Mzch_yovBuNeH3yI_dHXihX1NzUoW7_Pu9lmFob8_9FlYv3RI=)
-17. [bim.com.sg](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvnid6AvV5XnhCz9FIzf-zPDMVcqmOvS45hmQ6s1GsP7L78Be3fEEqDh3r6PYSR_wC2xgzZMusE90d-ybkJqXQno6bnYjzVgYmTOIQs_A8zcvo129OJvYjKDvgEDEZaAqHGb5Mzu42JQ==)
-18. [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCIKI8zARcSb0UnLRmOWO4kq0ljoFPK9Q3iZL_2a2m8Y7fFIgNK8zGtzvQa6f_52S17J0XxtjWc1w0zllMNiK9X6dud0LHhJstwQFi8DWdjqo_MkkP2iVY4DZtUDScCwjFZjnBh3TQK1sfr2SPdClxN7LCrFDiEoXLDg==)
-19. [unicornfactory.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6SNAH5saupp3vgJU6NR82hQfVPhKhjF49SJVuXKh5dS-lQ9q7eyxPJohEBnKcGSAuV5FOOgtUmu0InNCqKB7cRj-ud9st_l5YBsrx5RKTGUqsmnHcxRB-NXgQmv0sRhFcFCDnQzlEX34rb0OKVjucAuE=)
-20. [aurumproptech.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtoBdB6omYzGoDVLffXQ1j68Y4dMX7WcDBzfwFw4C83KULRUk-vwdAyAkFXFN1TgB2AKvWGhFv1Hhm_3JJmVbEKOVnAY3z3OeeMhDsDmZLg5EQzuIAfavdtVd6uUQ8tOjZeRvZKl1_I3UUzkeAVZ_G1vZWxa6fWAj1tZgg83oy0BvopRi-RMC2UWl92pC8_S7_1EQpJEIVaEna80YPhI4uUuNo)
-21. [kdi.re.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDriNQsHt7wYGNbCe5lOSgDXi7Fi3b8NFQn_lSco1FcMspOCFWfhQ3QzTppj5dY9w7nvvakapZej7wv3hZueDVAOty7p88O1u983-sytRWInyvNO899pX7igPjBJzr3yMCBpGanQFzsquH_rlwS_c=)
-22. [amro-asia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXZ4jeNyGI6_6xWWAupyU_wYr4ePwkxUi9uedDAsUSpS4zwrS7gjOR0Eod-mvJaPI4k8gIY88fYUVvAG23Vh7PrF42ZPp76jAXlVWjelz7_n5wwpcypHZXPZQQVP2edbdweUrky3De6NdvcUc5n2Ux9AwFv16CFvbnDta4rOUZxGBH)
-23. [buildit-m.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGALai_B0uHmUI6Yi2Mp6M9LgqBe_nXeqXlZXlUktUmCxc8t9rrQF9r6V6bLGBPfnqUG9kjskuI2i7uUvC7gaaLzBjXLc_2ZpUkApNFna7-iKiz5rWvvGUlD3RS_Yc1S07TKIvgsOyo6ceatjtK3EYy9lz7NLrt_0BMl_Cy-yI9uC2rnVJEL1ZSRCzw3O8SMrbk2NT3VPX5AJwBClcU0tc5BqIvQWO1JXUIy-yiV3nJfipvQXAet2Cb2xpXm_Pqu_Xcf7R6WrMPZVKAZRegYIYbTBDSkJ3zBW6znNiG762V2geyp19C2HUBK3ratGDuQq-J3zSG9sw0CfRqSJ8TzaOgW-g8FkFWBLOb5nlGkqAXbFa8jpTbdW5gWJx5YCPYmDahcQWv6rcPR9Lq3TcDzg==)
-24. [a16z.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxB3EJLODqLEKyp-VT8mGLdyGhaeVuRzxrGdhg7mSVBZ2lzV8vIhGhDyMBejriznkssItG0mEN1Ry4WyCR3iaeWjcg86LIoErd1FCDkN-PNoK_kJcrDnIGU_VKOmIqO5LwBGyu)
-25. [iconiq.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgglKRg10NCRsyL61ISQ-peV6VgQufQ9Yi5-QeDfRwipv4oF-JXw2F36M_a8RkucsiDYultCD9DW3TvCHUPKUVY2cFOroYoRwnwnGiBEbXyU5TkIaB-puH9mYD-RZYU5zJgaiXKOeoM0G8u-besx-dKPnJl8JVo4tNgl-KAVnMsMjEtCS8n0ogT__AbXzWo1Q=)
-26. [substack.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNSP7BQr056h4uGHRFbQNGdQn7O6MrLOQJXJgw13Ssv6wclpDLiXVFqxdDiuS4FI7LGmq8YcU95ocSI43nYbT-7mij_M4NIA3Jp7VPQq_OOPY4YLO7sMn440R2i7M5DLP1czsfzX184whUgah6nRIdZVVDgEXfXDvgfaeb1Q==)
-27. [multifamilyexecutive.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHioRq284R-pWrYGFMxNng8f1LfLK6rk82jw7JFDWWrxXaERKTVCtKaVLt6HstaUTBwFPE1LttnKl9F01itYoayVE4lwCKnCINR5i6I2AuZF62bpZIa6q17HK5fQf0g-LweboMH0lmuMM-FMIzyMjsYYGpyFCzDvJWWIAuEWkhmLa_P3-4fMzzq-AkPU5SuqO3cgw==)
-28. [mrisoftware.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdfau3osF4zbhbIgD9REBxNCnTi85jpI-5QZDQqndR2JKiDDn7LJaETl67bSJTiEJ746qdXwrMlBdcGUVDzKh-5Iy_KFM3r4mRNvblQBIqZeTisZbYEegR-cD6FlRgw-YHPNj64pzL-naOwkLYE7NHzvCr)
-29. [archdesk.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeevROy5VNJHWKPMQvOzUzGFgUCt7pD6L9drSHUPhuHgIiN_KnN1-ShQhOzSnetpi6UtOAAjdOF_OTPMH0oGqUL6ZxNXuXX9DCK6GPqvN-7tD_d0N07ZZIMCA-4R14rd6LDYOhspiXqt01kK4m_XCAR9Bown12Ow==)
-30. [uxcontinuum.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8bi9-J2jq_Fh1OnTvUgK6O16fGCNEqI2oho2l9wGiCdhRHzXiifZG5D2yzNOADtSNI92N3aDadHSdWWJbbpJc1SeII-b_d6mMeIQYHBYLuDsoNtC8gVm_LoYSILIbeDYTJgFkgh1ZhHQ5q_QDYEQZhw==)
-31. [procore.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcPTiqEF9GOYHGiaYZvjPbcAPGnf2dAQB9HsdP6xnXEbcK-_MZTGUfVvYAer4B9FJaZtJscltvUoFxyyp43w3bNVANTptosSYIlgmk3STw3HkKJgSEucuToRs97WJBHdaapbyCYs3OriXtuk0ovpV0CZ-T7XOb)
-32. [oril.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8o4ckS3ouTzw-Rg3pgRg_ncOt3iNLIR2y1ENrhVV2cQlkfGvTGPnEWgSMXS682b3habEpIETEQAeeUXbyf7E90Vq9wFog2oGb7Oc88Ai6EfLuBQtRzVnsyIcftLlQnEZVkWrwJQbHf6R3CmqGjSdBwsscEqn4q_LM1Mxczz_VXSFtkotmJYA=)
-33. [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNm_MEqPkhnyxfC-269RLqoJGAeFI22aq_rMYiSmhHSNseyJBzQfz3UIyfyTwssGzWNlju7RwdAVMMMQJuVQiqiP3I96j1G69FmUA20Bz4wtfo_mevDGrrv5nJR-N1eoBLKN7VkWnunN6Y5tfIw-oMRpN10bGc8L-VI4NYoZ8_97VodLljfXk-_QcfmwU1g3cD_9HZvCz-kecQJ28Zt42EjralZzvlFMfGpA==)
-34. [microsoft.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEE_8fOdmpbK3vxb1mM2Wkvvc5TtVRVXW41HO8kp17o56pxXqQP65vi5A_sw3tYSoirDEnQFCQMuzyMvocdTu1oZ-UhIqsmLd-F_2FGYoEMesRV6FehPovCzK8LKJXH2nzGBrAUMOQzx10dD_dnqWeFxAR4zDdS5gBfxyGpYOmbFubEBRUa0jr2rn2tTjl8_WgamLxTQ9sHkmti5fpZKTOSDpHy3dcf4xe5)
-35. [vaia.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf5z36QUR61yc4WrOEmy9wJr5JZirJIyFtdJYmfnbots7pRF5-NzETcoIsN9fbZcW0PUlLe-aS2fCPAokioHSlRszaWsgNhVWGk0SYTLiEiVx1gBg1rFCsvBan4na3vbNgC21LFAosrsNlVZ9VHDft3d_BJsV5TSO_DR_NShKVTVA6tNCm2UGh_-TRhnOsGSA581z2BH9PMBkUxDbl0OLlb7DRohca3DzG2uK75ZJc)
-36. [proptechos.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg6TqMI4iFP57euRq0y4rqN4zAGjSsxc6YcKcNlG-p7xvXwKYGAy8AgrQgCyLKTk7sqrkXWS-WVJ6nuvWVaSjSG7lvauiPKcx78WspjDLkafzSfeAcLX-LSnOS6-WyoutX7F3cOqW8SQt2pw==)
-37. [procore.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEePdYFtsCfMixNSBSyz7JA7y-E7JBK8sz-xtWn0WnkDAzvS3QjegMJZtxvIGE8mq1MrKMdUHTTf7aHs0BrdGNdx9Ov_LLrvB-wCOjKoE9IE8AkMMOgu8YG1pw5vOJzZs9ITtlpsPzhlFtcxb8FRWpnNnS-zJMPTTq2etJNhzrzIED0pQmkf7LeqMp1qFWnekto0cvfFr7ZldYtMZHa)
-38. [builtworlds.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMD0pqULDzcqBe-k2DotpINJTigU84ykV3xcaGS73Hq-oJ5XblmgxoZeZpuvves2uXrEelMu2QwjNcVi6_Yg137yQjx2-841A-jXzNNc8LDlwgxaLExElLtjJo4WaO3sS541c9t7F13XIKSL3Nj_g_zROA9nin_29yCqRWxmkbKsoj_NuiKw7lyCwY0nhN0Di0)
-39. [capterra.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmQryEWEMCCA242LgCZ_cd0XvVRKK8iYh9fsSXCQcq6qX-UWRKz3pJfr0hD9P9OLd2VQobwVMpWQsMFDTX7vBX84PQuIFpF3erlYcQqmh38iMy_Q54q9dg5U2eZdBIbUZqNk-8lmBefopuXgvjyT6g1FmbvWIIhdWGKgo2tS2SjGchqu98iqZTmCM=)
-40. [autodesk.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0gCLj-r-kgEyAn9K1ZyXGoQHdNO9f5MjrJRGCJzULQh6jXDbeZX_BTwSpZ4KQgVeOKVwq_Xs798SBkEuINpBc_bjstT7Js1Jktm2uN20mM8VAmgUuQR2DyqZWjxSWC01oKEqeBq_OxDHUEnUXbHM32-1Sp6zY0DkpCj4PAEsN2r7OwFNez4I3IYE=)
-41. [g2.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2DDxtcbF6jwCsxTtkvbC5XigCJ4CikOyD_IficGlGA6rqaWR1Di7-m5BX6ntnVQqHgD7q1KmvdC4esD_7xKybcAxUU-TYkB3RQb4GlluHg_Gn9AKmGs5flENodNNDPnRaKtmkeAKRetXrZG_WmEAkWB_LvxqsqYfNQwiXFYE9E_GjFwNqMrYLKy8HIlxmoA==)
-42. [getapp.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2peDBNbjcNUU_RHaK93Ph-JHUnG5eamJ4LYsEwyk6lliMBAxy3DGUTh5aV28Z384USUlaa7qgyGxYR8D0f_0LYDmtLqmrCz4ill1LwPaT0FHnsYEqoSR3O6T8q8SwfiwD_t3Dz9BbSVNJtd442Yb67Jz3HEdAQpQcdObN20hFcwElk5cbog==)
-43. [creti.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSLp0r1SQm8Sp3wHbgP4OZCG5ARgUf6KkwE_X4DcDnp-Y8h-4C3Plsp5_s4bDaM2QkjrOWzJJZZ8g0lQxJcBZbpsCoS588a7uD8LGohjHTTvrZH8GjQU7s2mgcpZluAUOmlOLyTdwJqdwIp-oT0kiz8Gd9aGhcJHlfQLAfQA==)
-44. [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFl3dSZ29anQ9Ob9Puo9AoePMW_SZWBrm4-PuC26Bf4zZiEOmjCvyO2Min_gy3ub6emQj2VtaEXO-xzZ4rkXLbs27E7qi0r73OOOhYjyuWu3etILUreNrr27WTeTJpTSi1xtaazUt9qDcbaqw6)
-45. [roofscope.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdwKgEoxzaaIKfXBMiE3OMc9xjQDHT0ZeHp4D-9IPHueIIkuRTLh_D8swsJh-6c9CkQJuT4DfVnLrKPzIC5qSzWayKKB5AzQdzkv15pjxDg5GyTcJR6ByIy8z7x9knZGndcUH5arLqUPpxhdW1-p8LZlvo09pz8BQobRPx)
-46. [outofarchitecture.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD2rkTD5HGPKGznnV8HxSRTxWfATE57DIQ6UR2Ngoda1hiQBGypDkw0VekA_zBVVI2QXr0ZFlsloP3kvGcn66ecdzBAiOiQvvdaLjhoo_oadWDLh6zPS6L2Pef7RoB0tJFX5JG7PMjuwCgGvoYTDDTKG2Td1E8jR43RJznyeRw0Bl738CNrfn-pDDZNgB7Aw4_pbjRdbBM56oclFPoeA9oXqqBx267NXbw4dP0iHLN)
-47. [zdnet.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlq2jPbU6XyVGZmyQAMk7LChkFLbuJWiuZOkQq3JUt3WikDZJiycfMz28mUjQkIE0-AaUnTocp-5o78mglTIXumaWlJ9VloidZU0AaopJ5PPgSeSXncWIrB8L1Rck0Xgz7)
-48. [elsewhen.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCvsB-8V2LmF1pIGJZRDcwSIbl36pAFHh2vvl6Dw3lMMkgGOLlEG2qoIltRfy2wn1Yu9ngNzX2mug7TJgBgi4Neid57zmbl3TWBhUzurzJRfwQRYxpgSTfGsELEmQ4jErtN6-d)
-49. [scribd.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo_pf5YGPjupTQ0BNp3rATYd7ZSESRpzPydpIiuXV_F9cysFKmw7xGOKATgqKLNqFAOICASVo9DnRxP5MiZyJRK1DNMJFvj_QypxaFs4BzFtxjlyPUe2KLXMJaAjf3i9UVi34eZRtm1_0wUlvJTjQ=)
-50. [signalfire.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEl3pwDnPWmRQLy5c6KY74RtKCgO7HC2Lvc74Pst-y01WVWWV3p0T8nqwGAj2sQQw-KAVyq2t_-SiPdjNv6aKCxsxdvQMi8vnVuapcUxcY29e25UXlPY4iyScRwWoY532xdHcVCxZTIE3nY577Jrlk5Xlt8I8x8pxnzICo)
-51. [finmodelbuilder.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOu_A1JL2mQ116Ut2Q8rF1POyJRSOSP8qkVvxIVKtB0hQlo7W3gAZK1JYCJmOEFJabuPO9mdsbKWu5EWUJfgaH7t_W0BzSBEC8lqyZvlrXxWVYK5VmZG6tm1Twm91EjnO7aoVo-mPnzTVNBkx0iHHDgx8=)
-52. [antler.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUGqfMdos7bb61UNG75ikxsdjyY2lYCY-i-Qlxgd153xV5awGz_cQARi9mUbXa7Zgl2OmXa5qzUShzkcHySWtyoE2JxTxGHLbZjiQAhNt9kX568fzvx0h459AyZcLMauzT7LZs_FKnxy_dAnIzs5dWeFyphFeoHAbBZGp3qCP0sx-jf9czMsaFBIp0rnzAI-bQd-xBCg4qfqOa-3S_fQDg)
-53. [proptechconnect.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNkqgeBe6EbxtJh07DZExAM2fMx4_Ok9knwTJkjRwxhQrG7ZbKaJs1APWXTVQ_aK9oUQLQNvU_dCzKwjxUK4cVt4DrsGwo80oKV6SOZwYVM70MnVrPQlCoOR5jDxnJPqAGccuBIKyojkrFVHjlJbzditywdQ0KsmV041i9Q6YkOtPIs-azWeNZ210RD02Nbg==)
-54. [contus.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElc96sirTpQIby1xJ9W5CmyJEafUlTBybtaUQTiSFa__c-1WZLzz8Rou2yxJ6vykN-aLutAOnXFvMPMMQAjfzLEkmXNRhgNDrcdRthcopTYY3Q7lAB-z4Ya_Zug_b0maGd-4Hkypoavw==)
-55. [ssntpl.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdJ81j2gaZDAGgzcPM3gD6DWg4QmdkHJ7DipnmxvamB0Djy3DWFfhuinNbHJqVEjdX2svrHiVEIIGD7TRON7iZircAc28UCKv5GBbIh6d5n3djL7LxbcMgz2vc0vjVLQ==)
-56. [mordorintelligence.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRwZR7ddL7gzWuU9NWUR9cAxb9mDrA2ZWeD8eXHxy7x2_WZLkayaN-AUycCkHCwYvEA2x8LePf4t9CsHBuUp14xqau7VYC2s3G5aPMsoDv-ZHlOKPa_uz44noqsfgOJsdr3o6YsUVdrMRhBDQLQT6K4_ahqyHxq4MG)
-57. [thesisdriven.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5Hki_N6djyhOwVdvNscBfKw2hCpGokx71UfY4sX_m5YvehN4xWMve4Be5qvx9QbEk-UPJuK_Oa7lZKjt_lb0q7A05QDggCyzILu3hheMGA2E8VIlbB2D30d-MF1H-emchRTcEmscrhiy_Ha5pi9CIn_xDDqOAt2LmZgI=)
-58. [chosun.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGglHuedxPZDBdA2qiUCRRpEuzx8U1o2LRD1qBOXy29Yr4aIY6EXYCGO1pJkC-Z-jsLy_qg6qqwTkRoJCxH0zS45lqGapt-sl_r9jE5g26DlJzFM92RUEoQk_hZGkjDnUC3zdvAHysJ9q1Od1H0xCjbVAkhbFFiuGmLjUDB6TwBZEI=)
-59. [mt.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ68VqTuRy78bVZYFOnMe23t2WNGNZ8umaE43PHrxMsusMW_3t9oURfbvQjt1l0elLjGPWvZYIeTONefTg6lt6JgRbXFTArPoTqUWF407sCcc7xpcsu4Wwrtw93AZsPSLLFG46XddyUudkTVGV-yKq)
-60. [wowtale.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcSgiEjftcPlR_3ihYSvCvkHiRFGjjjjZx8Ltzd8bnq87S1SXSZTykZTzOBn-Bq7f90HqBBgd3Be72iTVaobTgEc3b55EZmt6f6eFPPYkhrdiCGLCB6JhCJkAPqg==)
-61. [wowtale.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG79c0q7RLC4mC6XHB2JJU7tjbrOv7FbV60JSfPZqX5Rp6BCjs4j4WRYdO1fj-9xpN4Nao2AxAwjZ1l-JQTfkzyN8UFqTRloiucMiwjg7XXbVY_uITfUDT70aKc-gmuPA==)
-62. [gridcre.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvbeuyD_2BXI0x5IjPjmfWMBleMlBY7wZuUVw2gqOJtAgd0m-e5CnN7wHmYZQx0mFyhO5_hL7glrFI3frO9IGfunGyizirDmqx0_pDJ0QwyU1co_odEKWlg8SABABxdUe6N62s_wG8mYC4EnYY4SdRqzN1z1kr3nY5O3ptT4eCsBhtJy4wNGfGMQu1Me9RzAJY0T1cNxRLCzBOyjyYUA==)
+<div className="source-inline">
+<strong>Sources</strong>
+<a href="https://www.pwc.com/us/en/industries/financial-services/asset-wealth-management/real-estate/emerging-trends-in-real-estate-pwc-uli/trends/proptech-to-propos.html">pwc.com</a>
+<a href="https://www.vendep.com/post/forget-the-data-moat-the-workflow-is-your-fortress-in-vertical-saas">vendep.com</a>
+<a href="https://ssntpl.com/saas-development-cost/">ssntpl.com</a>
+<a href="https://wowtale.net/2025/12/30/252553/">wowtale.net</a>
+<a href="https://zdnet.co.kr/view/?no=20251119150538">zdnet.co.kr</a>
+<a href="https://www.unicornfactory.co.kr/article/2025091417090523615">unicornfactory.co.kr</a>
+<a href="https://adsknews.autodesk.com/en/news/autodesk-construction-cloud-is-now-autodesk-forma/">autodesk.com</a>
+<a href="https://www.zenml.io/llmops-database/building-a-property-management-ai-copilot">zenml.io</a>
+</div>
