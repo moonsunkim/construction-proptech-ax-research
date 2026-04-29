@@ -21,7 +21,7 @@ const config = {
       title: '건설·프롭테크 AX 리서치',
       logo: {
         alt: '건설·프롭테크 AX 리서치',
-        src: 'img/ax-logo.svg',
+        src: 'img/ax-logo.png',
       },
       items: [
         {type: 'docSidebar', sidebarId: 'researchSidebar', position: 'left', label: '목차'},
