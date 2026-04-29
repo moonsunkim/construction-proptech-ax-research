@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="AX Research Logo">
+  <defs>
+    <linearGradient id="g" x1="12" y1="12" x2="84" y2="84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F5EFF"/>
+      <stop offset="1" stop-color="#19C2FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#g)"/>
+  <path d="M27 65L40.5 31H48L61.5 65H53.8L51.1 57.4H37.2L34.5 65H27ZM39.1 51.5H49.2L44.2 37.4L39.1 51.5Z" fill="white"/>
+  <path d="M61 32H69L75 43L81 32H89L79.1 48L89.5 65H81.3L75 53.2L68.6 65H60.5L70.9 48L61 32Z" fill="white" opacity="0.92"/>
+</svg>

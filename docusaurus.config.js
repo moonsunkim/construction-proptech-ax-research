@@ -19,6 +19,10 @@ const config = {
   themeConfig: {
     navbar: {
       title: '건설·프롭테크 AX 리서치',
+      logo: {
+        alt: '건설·프롭테크 AX 리서치',
+        src: 'img/ax-logo.svg',
+      },
       items: [
         {type: 'docSidebar', sidebarId: 'researchSidebar', position: 'left', label: '목차'},
         {href: 'https://github.com/moonsunkim/construction-proptech-ax-research', label: 'GitHub', position: 'right'},
@@ -26,7 +30,7 @@ const config = {
     },
     footer: {
       style: 'dark',
-      links: [{title: '문서', items: [{label: '종합 문서', to: '/docs/comprehensive-report'}]}],
+      links: [{title: '문서', items: [{label: '0. Overview', to: '/docs/overview'}, {label: '9. 종합 문서', to: '/docs/comprehensive-report'}]}],
       copyright: `© ${new Date().getFullYear()} Moonsun Kim`,
     },
   },

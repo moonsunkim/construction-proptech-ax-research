@@ -132,3 +132,18 @@
 .docCard:hover { text-decoration: none; border-color: var(--ifm-color-primary); transform: translateY(-1px); }
 .docCard span { display: block; color: var(--ifm-color-primary); font-weight: 800; margin-bottom: 10px; }
 .docCard strong { font-size: 1.05rem; }
+
+.navbar__logo img {
+  border-radius: 9px;
+}
+
+.doc-disclaimer {
+  margin: 0.75rem 0 1.5rem;
+  padding: 0.85rem 1rem;
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 12px;
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-800);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
