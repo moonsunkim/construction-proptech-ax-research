@@ -4,9 +4,8 @@
 }
 
 /*
- * Wide research tables contain many columns and long source URLs.
- * Keep the document layout inside the content column and make each table
- * scroll horizontally instead of spilling under the side table-of-contents.
+ * Wide research tables should stay inside the article column and scroll on
+ * their own. The right in-page table-of-contents remains visible.
  */
 .theme-doc-markdown {
   max-width: 100%;
@@ -18,7 +17,7 @@
   max-width: 100%;
   overflow-x: auto;
   border-collapse: collapse;
-  font-size: 0.86rem;
+  font-size: 0.88rem;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -31,29 +30,55 @@
 .markdown th,
 .markdown td {
   vertical-align: top;
-  min-width: 150px;
-  max-width: 360px;
+  min-width: 240px;
   white-space: normal;
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  line-height: 1.55;
 }
 
 .markdown th:first-child,
 .markdown td:first-child {
-  min-width: 130px;
+  min-width: 180px;
 }
 
-/* Use the page width for content; the left document sidebar remains intact. */
-@media (min-width: 997px) {
-  .theme-doc-toc-desktop {
-    display: none;
-  }
+.markdown th:nth-child(2),
+.markdown td:nth-child(2),
+.markdown th:nth-child(3),
+.markdown td:nth-child(3) {
+  min-width: 220px;
+}
 
-  .docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module,
-  .col.col--8 {
-    max-width: 100% !important;
-    flex: 0 0 100% !important;
-  }
+.source-inline {
+  margin-top: 2.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow-x: auto;
+  display: flex;
+  gap: 0.7rem;
+  align-items: baseline;
+  -webkit-overflow-scrolling: touch;
+}
+
+.source-inline .source-label {
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-700);
+  flex: 0 0 auto;
+}
+
+.source-inline a {
+  color: var(--ifm-color-emphasis-600);
+  text-decoration: none;
+  flex: 0 0 auto;
+}
+
+.source-inline a:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: underline;
 }
 
 .heroMain { max-width: 1120px; margin: 0 auto; padding: 56px 24px; }

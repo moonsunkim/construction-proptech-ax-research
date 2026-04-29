@@ -1,5 +1,6 @@
 const sidebars = {
   researchSidebar: [
+    'comprehensive-report',
     'global-enterprise-cases',
     'korea-domestic-cases',
     'sme-startup-project-cases',
