@@ -171,5 +171,5 @@ AX 사업의 장기 가능성은 첫 제품의 크기보다, 첫 제품이 어�
 | [시장 진입 논리·시장 지도](./investor-thesis-market-map) | 시장 지도와 실행 로드맵 확인 |
 
 <div className="research-note">
-GPT-5.5가 주도하여 Google Gemini Deep Research Agent Max 8개를 병렬로 실행하고, 각 결과를 종합·재구성하여 정리하였습니다. 이후 보강 리서치 5개를 추가로 반영해 사업 진입·제품·포지셔닝 관점의 종합 분석을 확장했습니다.
+GPT-5.5가 주도하여 Google Gemini Deep Research Agent Max 8개를 병렬로 실행하고, 각 결과를 종합·재구성하여 정리하였습니다. 이후 추가 리서치 5개를 함께 반영해 사업 진입·제품·포지셔닝 관점의 종합 분석을 확장했습니다.
 </div>
