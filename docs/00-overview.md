@@ -4,7 +4,7 @@ id: overview
 slug: /overview
 ---
 
-# 0. Overview
+# 개요
 
 건설·프롭테크 AX 리서치 문서 허브입니다. 1~8번 문서는 Gemini Deep Research 결과를 정리한 주제별 연구 문서이며, 9번 문서는 전체 결과를 투자자 관점에서 재구성한 종합 보고서입니다.
 

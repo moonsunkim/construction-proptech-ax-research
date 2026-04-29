@@ -1,6 +1,6 @@
 const config = {
-  title: '건설·프롭테크 AX 리서치',
-  tagline: 'Deep Research Markdown 원본 보존 및 열람 사이트',
+  title: '문선 김',
+  tagline: '건설·프롭테크 AX 리서치',
   favicon: 'img/favicon.ico',
   url: 'https://moonsunkim.github.io',
   baseUrl: '/construction-proptech-ax-research/',
@@ -18,13 +18,13 @@ const config = {
   ],
   themeConfig: {
     navbar: {
-      title: '건설·프롭테크 AX 리서치',
+      title: '문선 김',
       logo: {
-        alt: '건설·프롭테크 AX 리서치',
-        src: 'img/ax-logo.png',
+        alt: 'Deltafleet',
+        src: 'img/deltafleet-logo.png',
       },
       items: [
-        {type: 'docSidebar', sidebarId: 'researchSidebar', position: 'left', label: '목차'},
+        {type: 'docSidebar', sidebarId: 'researchSidebar', position: 'left', label: '건설·프롭테크 AX 리서치'},
         {href: 'https://github.com/moonsunkim/construction-proptech-ax-research', label: 'GitHub', position: 'right'},
       ],
     },

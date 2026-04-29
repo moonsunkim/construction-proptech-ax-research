@@ -1,8 +1,8 @@
 ---
-title: 4. ROI Proof Bank — 상세 사례
+title: ROI Proof Bank — 상세 사례
 ---
 
-# 4. 건설 및 프롭테크 산업의 AI/AX 투자 가치와 경제적 성과(ROI) 입증 보고서
+# 건설 및 프롭테크 산업의 AI/AX 투자 가치와 경제적 성과(ROI) 입증 보고서
 
 
 <div className="doc-disclaimer"><strong>면책 조항</strong> — 본 보고서는 정보 제공만을 목적으로 작성되었으며, 특정 주식에 대한 매수/매도 추천이나 공식적인 재무, 법률, 투자 자문(Financial or Investment Advice)을 구성하지 않습니다. 투자 결정은 반드시 공인된 재무 전문가와의 상담 및 철저한 개별 실사(Due Diligence)를 거쳐 이루어져야 합니다.</div>
