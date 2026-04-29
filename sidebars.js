@@ -1,7 +1,20 @@
 const sidebars = {
   researchSidebar: [
     {type: 'doc', id: 'overview', label: '개요'},
+    {type: 'doc', id: 'investor-memo', label: '투자 메모'},
     {type: 'doc', id: 'comprehensive-report', label: '종합'},
+    {
+      type: 'category',
+      label: '추가 분석',
+      collapsed: false,
+      items: [
+        {type: 'doc', id: 'wedge-ranking', label: 'Wedge Ranking'},
+        {type: 'doc', id: 'budget-owner-map', label: 'Budget Owner Map'},
+        {type: 'doc', id: 'korea-why-now-plus', label: 'Korea Why Now'},
+        {type: 'doc', id: 'competitive-white-space', label: 'Competitive White Space'},
+        {type: 'doc', id: 'ax-operating-layer', label: 'AX Operating Layer'},
+      ],
+    },
     {
       type: 'category',
       label: '리서치 데이터',
