@@ -12,9 +12,9 @@ slug: /comprehensive-report
 
 건설·프롭테크 AX의 핵심은 “AI 기능을 붙이는 것”이 아니다. 더 정확히는 **이미 돈이 새고 있고, 책임이 커지고 있으며, 데이터는 쌓이지만 연결되지 않는 업무 흐름에 들어가 반복 업무와 의사결정 데이터를 장악하는 것**이다.
 
-![건설·프롭테크 AX 사업 진입 논리](./assets/visualizations/ax-true-infographic-gpt-image-2.png)
+![건설·프롭테크 AX 사업 진입 논리](./assets/visualizations/ax-bright-research-infographic-gpt-image-2.png)
 
-<div className="doc-figure-caption">건설·프롭테크 AX 진입 논리: 시장 압력, 기존 예산, 첫 제품 웨지, 데이터 축적, 운영 레이어 확장을 하나의 정보 구조로 정리</div>
+<div className="doc-figure-caption">건설·프롭테크 AX 진입 논리: 밝은 연구문서 스타일로 시장 압력, 기존 예산, 첫 제품 웨지, 데이터 축적, 운영 레이어 확장을 정리</div>
 
 | 핵심 질문 | 현재 판단 | 왜 중요한가 |
 | --- | --- | --- |
